@@ -1,4 +1,5 @@
 // top navigation bar
+import Link from 'next/link';
 import styles from './nav.module.css';
 
 export default function Navigation() {
@@ -6,9 +7,9 @@ export default function Navigation() {
     <nav className={styles.nav}>
       <div className={styles.logo}>AW</div>
       <ul className={styles.navList}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/work">Work</a></li>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/projects">Projects</Link></li>
+        <li><Link href="/work">Work</Link></li>
       </ul>
     </nav>
   );
