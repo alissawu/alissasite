@@ -116,7 +116,7 @@ export default function RPSOptimal() {
               makes intuitive sense. Early on (state 0) you should use Scissors more because it takes three losses to 
               kill you, so you push Scissors above 50% and keep Paper very small. At state 1 you rebalance toward the 
               stationary 44/11/44 mix. And at state 2 you cut back on Scissors, as the benefits are now gone, so Rock and Paper are 
-              more optimal. Note that state 2 isn't 33/33/33, because the opponent still has reason to be unbalanced.
+              more optimal. Note that state 2 isn&apos;t 33/33/33, because the opponent still has reason to be unbalanced.
             </p>
 
             <p>

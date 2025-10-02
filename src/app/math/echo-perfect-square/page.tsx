@@ -26,7 +26,7 @@ export default function EchoPerfectSquare() {
           <section className={styles.solution}>
             <h2>Solution</h2>
             <p>
-              I&apos;m working on getting the proof up for this (I've solved it, it's just annoying to format and upload a proof; if you've seen my handwriting you'll understand why this is necessary), but it was interesting. 
+              I&apos;m working on getting the proof up for this (I&apos;ve solved it, it&apos;s just annoying to format and upload a proof; if you&apos;ve seen my handwriting you&apos;ll understand why this is necessary), but it was interesting. 
               I was severely sick with mold poisoning, which I didn&apos;t know at the time, so this took me quite a while to think up. 
               If you want to solve it, think of the factors two numbers would have to independently have versus share to comprise a square number, think of how to represent an echo in terms of its echee(?), and consider &quot;number of integers&quot; reasoning.
             </p>
