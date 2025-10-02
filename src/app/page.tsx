@@ -64,7 +64,7 @@ export default function Home() {
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I was also a DTech Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
-            I&apos;m also hoping to add blog posts; at least one would be about Garry Tan&apos;s &quotPrompt or Be Prompted&quot speech. 
+            I&apos;m also hoping to add blog posts; at least one would be about Garry Tan&apos;s &quot;Prompt or Be Prompted&quot; speech. 
             </p>
             <p className={styles.bio}>
             I&apos;m a National Merit Scholarship Awardee.

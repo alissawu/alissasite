@@ -84,29 +84,41 @@ export default function Projects() {
           </div>
 
 
-          {/* Project Card 3 */}
+          {/* Project Card - Reddit Sentiment Analysis */}
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image 
-                src="/projects/project1.png" 
-                alt="Project Name"
+                src="/projects/rtreddit.png" 
+                alt="Reddit Real-Time Sentiment Analysis"
                 width={500}
                 height={300}
               />
             </div>
-            <h2>Third Project</h2>
+            <h2>Reddit Real-Time Sentiment Analysis</h2>
+            <p className={styles.projectSubtitle}>NLP Full-Stack Web Application</p>
             <p className={styles.projectDescription}>
-              Another cool project description goes here.
+              Real-time sentiment analysis platform for Reddit subreddits using NLP.
+              Flask-based web app integrates Reddit API (PRAW) with TextBlob for
+              sentiment scoring, analyzing post titles to compute average/median
+              sentiment metrics. Includes custom PyTorch LSTM model trained on IMDB
+              dataset for binary sentiment classification.
             </p>
             <div className={styles.techTags}>
-              <span>TypeScript</span>
-              <span>Next.js</span>
+              <span>Python</span>
+              <span>Javascript</span>
+              <span>Flask</span>
+              <span>PyTorch</span>
+              <span>LSTM</span>
+              <span>pandas</span>
+              <span>HTML</span>
+              <span>CSS</span>
             </div>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/alissawu/realtime-reddit-sentiments" target="_blank" 
+                rel="noopener noreferrer">
                 View Code
               </a>
-              <a href="https://demo.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://quiet-sierra-95106-5ca898adfa7b.herokuapp.com" target="_blank" rel="noopener noreferrer">
                 Live Demo
               </a>
             </div>
