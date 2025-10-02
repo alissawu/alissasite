@@ -55,8 +55,8 @@ export default function Home() {
             
             <p className={styles.bio}>
             I&apos;m a junior studying CS and Math at NYU. 
-            I'm mainly a software engineer, though I have done some MLE projects, and I enjoy math. 
-            I want to add a page of interesting math problems I've solved, if I can find all of them.
+            I&apos;m mainly a software engineer, though I have done some MLE projects, and I enjoy math. 
+            I want to add a page of interesting math problems I&apos;ve solved, if I can find all of them.
             </p>
             <p className={styles.bio}>
             I&apos;m on Tech@NYU&apos;s Dev Team, and compete in Stern BAC Quant. 
@@ -64,7 +64,7 @@ export default function Home() {
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I was also a DTech Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
-            I'm also hoping to add blog posts; at least one would be about Garry Tan's "Prompt or Be Prompted" speech. 
+            I&apos;m also hoping to add blog posts; at least one would be about Garry Tan&apos;s &quotPrompt or Be Prompted&quot speech. 
             </p>
             <p className={styles.bio}>
             I&apos;m a National Merit Scholarship Awardee.
