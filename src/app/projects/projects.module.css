@@ -84,6 +84,14 @@
 .projectCard h2 {
   font-family: var(--font-playfair), serif;
   font-size: 1.25rem;
+  margin-bottom: 0rem;
+}
+
+/* proj subtitle */
+.projectSubtitle {
+  color: #000;
+  font-size: 0.85rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 

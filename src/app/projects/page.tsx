@@ -32,8 +32,9 @@ export default function Projects() {
               </div>
             </a>
             <h2>EasyProofFormat</h2>
+            <p className={styles.projectSubtitle}>Discrete Math Side Project</p>
             <p className={styles.projectDescription}>
-              Makes it easy to format proofs, boolean algebra, set notation, etc. Intuitive conversion to latex. 
+              Makes it easy to format proofs, boolean algebra, set notation, etc. Intuitive conversion to latex.
             </p>
             <div className={styles.techTags}>
               <span>HTML</span>
@@ -50,30 +51,38 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Project Card 2 - No Demo */}
+          {/* Project Card - Humanizing the MTA */}
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image 
-                src="/projects/project1.png" 
-                alt="Project Name"
+                src="/projects/mta.png" 
+                alt="Humanizing the MTA"
                 width={500}
                 height={300}
               />
             </div>
-            <h2>Another Project</h2>
+            <h2>Humanizing the MTA</h2>
+            <p className={styles.projectSubtitle}>Cubist&apos;24 Finalist</p>
             <p className={styles.projectDescription}>
-              Description here.
+              Interactive transit safety platform with real-time data visualization.
+              Built with Flask and Folium for geospatial mapping, uses scikit-learn
+              autoregression models to predict subway crowding and safety metrics
+              from NYC crime and MTA APIs.
             </p>
             <div className={styles.techTags}>
               <span>Python</span>
               <span>Flask</span>
+              <span>pandas</span>
+              <span>scikit-learn</span>
             </div>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/alissawu/point72_2024" target="_blank" 
+          rel="noopener noreferrer">
                 View Code
               </a>
             </div>
           </div>
+
 
           {/* Project Card 3 */}
           <div className={styles.projectCard}>
