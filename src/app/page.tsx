@@ -19,12 +19,9 @@ export default function Home() {
         <section className="hero">
           {/* dot art portrait. diff sizes for diff screen sizes */}
           <div className="portrait">
-            <Image 
+            <img 
               src="/portrait.png"
               alt="Alissa Wu"
-              width={729}
-              height={1214}
-              priority
               className="portrait-img"
             />
           </div>
