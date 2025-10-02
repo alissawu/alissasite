@@ -25,6 +25,7 @@ export default function Home() {
               width={729}
               height={1214}
               priority
+              sizes="(max-width: 480px) 250px, (max-width: 768px) 320px, 400px"
               className="portrait-img"
             />
           </div>

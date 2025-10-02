@@ -129,9 +129,9 @@ main {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-
+  /* TABLET IMAGE SIZE */
   .portrait-img {
-    max-width: 300px;
+    max-width: 320px;
   }
 
   nav {
@@ -155,7 +155,7 @@ main {
   .tagline {
     font-size: 1rem;
   }
-
+  /* PHONE SIZE IMAGE */
   .portrait-img {
     max-width: 250px;
   }
