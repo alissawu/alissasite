@@ -1,4 +1,5 @@
 // landing page
+import Image from 'next/image';
 export default function Home() {
   return (
     <>
@@ -18,20 +19,13 @@ export default function Home() {
         <section className="hero">
           {/* dot art portrait. diff sizes for diff screen sizes */}
           <div className="portrait">
-            <img 
-              src="/portrait-large.png" 
-              alt="Alissa Wu" 
-              className="portrait-desktop"
-            />
-            <img 
-              src="/portrait-medium.png" 
-              alt="Alissa Wu" 
-              className="portrait-tablet"
-            />
-            <img 
-              src="/portrait-small.png" 
-              alt="Alissa Wu" 
-              className="portrait-mobile"
+            <Image 
+              src="/portrait.png"
+              alt="Alissa Wu"
+              width={729}
+              height={1214}
+              priority
+              className="portrait-img"
             />
           </div>
 
