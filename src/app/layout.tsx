@@ -1,6 +1,19 @@
 // this wraps every page
 import type { Metadata } from "next";
+import { Playfair_Display, Inter } from 'next/font/google';
 import "./globals.css";
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-playfair',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
   title: "Alissa Wu",
@@ -13,16 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        {/* Google Fonts. warning needs wifi to load. maybe do system fonts later */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500&display=swap" 
-          rel="stylesheet" 
-        />
-      </head>
+    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body>{children}</body>
     </html>
   );

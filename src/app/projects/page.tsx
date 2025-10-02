@@ -23,7 +23,7 @@ export default function Projects() {
             </div>
             <h2>Project Title</h2>
             <p className={styles.projectDescription}>
-              Brief description of what this project does and why it's cool.
+              Brief description of what this project does and why it&apos;s cool.
             </p>
             <div className={styles.techTags}>
               <span>React</span>
