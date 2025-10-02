@@ -1,18 +1,11 @@
 // landing page
 import Image from 'next/image';
+import Navigation from '@/components/Navigation';
+
 export default function Home() {
   return (
     <>
-      {/* nav bar (sticky, at top) */}
-      <nav>
-        <div className="logo">AW</div>
-        <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/work">Work</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/education">Education</a></li>
-        </ul>
-      </nav>
+      <Navigation /> {/* NAV BAR */}
 
       {/* landing page */}
       <main>
