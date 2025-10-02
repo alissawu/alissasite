@@ -80,12 +80,18 @@
   font-size: 0.875rem;
 }
 
+/* Large tablet: 3 columns (projects only) */
+@media (max-width: 1100px) {
+  .projectsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* Tablet ≤ 768px */
 @media (max-width: 768px) {
   .projectsGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
 }
 
 /* Mobile ≤ 480px */
@@ -93,9 +99,7 @@
   .projectsGrid {
     grid-template-columns: 1fr;
   }
-  
   .projectsPage h1 {
     font-size: 2rem;
   }
-  
 }

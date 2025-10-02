@@ -44,7 +44,7 @@ export default function Projects() {
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image 
-                src="/projects/project2.png" 
+                src="/projects/project1.png" 
                 alt="Project Name"
                 width={500}
                 height={300}
@@ -97,7 +97,7 @@ export default function Projects() {
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image 
-                src="/projects/project2.png" 
+                src="/projects/project1.png" 
                 alt="Project Name"
                 width={500}
                 height={300}
