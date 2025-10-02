@@ -11,30 +11,40 @@ export default function Projects() {
         <h1>Projects</h1>
         
         <div className={styles.projectsGrid}>
-          {/* Project Card 1 */}
+          {/* Project Card - EasyProofFormat */}
           <div className={styles.projectCard}>
-            <div className={styles.projectImage}>
-              <Image 
-                src="/projects/project1.png" 
-                alt="Project Name"
-                width={500}
-                height={300}
-              />
-            </div>
-            <h2>Project Title</h2>
+            <a 
+              href="/easyproofformat/index.html" 
+              className={styles.projectImageLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className={styles.projectImage}>
+                <Image 
+                  src="/projects/easyproofformat.png" 
+                  alt="EasyProofFormat"
+                  width={500}
+                  height={300}
+                />
+                <div className={styles.imageOverlay}>
+                  <span>Live Demo</span>
+                </div>
+              </div>
+            </a>
+            <h2>EasyProofFormat</h2>
             <p className={styles.projectDescription}>
-              Brief description of what this project does and why it&apos;s cool.
+              Description of your proof formatting tool.
             </p>
             <div className={styles.techTags}>
-              <span>React</span>
-              <span>Node.js</span>
-              <span>MongoDB</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
             </div>
             <div className={styles.projectLinks}>
               <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">
                 View Code
               </a>
-              <a href="https://demo.com" target="_blank" rel="noopener noreferrer">
+              <a href="/easyproofformat/index.html" target="_blank" rel="noopener noreferrer">
                 Live Demo
               </a>
             </div>

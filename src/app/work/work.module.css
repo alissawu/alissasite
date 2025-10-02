@@ -1,0 +1,125 @@
+/* work page container */
+.workPage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.workPage h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* intro section */
+.intro {
+  margin-bottom: 4rem;
+}
+
+.intro p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* timeline */
+.timeline {
+  position: relative;
+  padding-left: 3rem;
+}
+
+/* vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: black;
+}
+
+/* timeline item */
+.timelineItem {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+/* dot */
+.dot {
+  position: absolute;
+  left: -3rem;
+  top: 0.5rem;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+}
+
+/* content */
+.content h2 {
+  font-family: var(--font-playfair), serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.tech {
+  font-size: 0.875rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.content li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+/* Tablet ≤ 768px */
+@media (max-width: 768px) {
+  .workPage h1 {
+    font-size: 2rem;
+  }
+  
+  .content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .timeline {
+    padding-left: 2rem;
+  }
+  
+  .dot {
+    left: -2rem;
+  }
+}
+
+/* Mobile ≤ 480px */
+@media (max-width: 480px) {
+  .intro p {
+    font-size: 1rem;
+  }
+  
+  .role {
+    font-size: 1rem;
+  }
+}

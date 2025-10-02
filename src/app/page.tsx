@@ -30,7 +30,10 @@ export default function Home() {
             <h1>ALISSA WU</h1>
             
             <p className={styles.tagline}>
-              CS+Math at NYU | Dev Team, Tech@NYU ; Quant Team, Stern Business Analytics Club | Prev @ Visa, Interos.ai, AYR.ai
+              CS+Math at NYU | Dev Team @ Tech@NYU, Quant Team @ Stern Business Analytics Club
+            </p>
+            <p>
+              Prev SWE @ Visa, R&D DS @ Interos.ai, Data Science Research @ Duke, SDE @ AYR.ai, Algo Research @ NJIT
             </p>
             
             {/* social links */}
