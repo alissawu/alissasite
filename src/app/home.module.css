@@ -1,0 +1,97 @@
+/* main container for home page */
+.homePage {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+}
+
+/* Hero section layout */
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* dot art */
+.portrait {
+  display: flex;
+  justify-content: center;
+}
+
+.portraitImg {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+/* name, tagline, bio */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* landing page */
+.tagline {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 600px;
+}
+
+/* social links */
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.socialLinks a {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+.socialLinks a:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+/* mobile responsive */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .portraitImg {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portraitImg {
+    max-width: 250px;
+  }
+  
+  .socialLinks {
+    flex-wrap: wrap;
+  }
+  
+  .socialLinks a {
+    flex: 0 0 calc(50% - 0.5rem);
+    text-align: center;
+  }
+}

@@ -1,17 +1,19 @@
 // landing page
 import Image from 'next/image';
 import Navigation from '@/components/Navigation';
+import styles from './home.module.css';
 
 export default function Home() {
   return (
     <>
-      <Navigation /> {/* NAV BAR */}
+      {/* NAV BAR */}
+      <Navigation />
 
       {/* landing page */}
-      <main>
-        <section className="hero">
+      <main className={styles.homePage}>
+        <section className={styles.hero}>
           {/* dot art portrait. diff sizes for diff screen sizes */}
-          <div className="portrait">
+          <div className={styles.portrait}>
             <Image 
               src="/portrait.png"
               alt="Alissa Wu"
@@ -19,20 +21,20 @@ export default function Home() {
               height={1214}
               priority
               sizes="(max-width: 480px) 250px, (max-width: 768px) 320px, 400px"
-              className="portrait-img"
+              className={styles.portraitImg}
             />
           </div>
 
           {/* content / about */}
-          <div className="content">
+          <div className={styles.content}>
             <h1>ALISSA WU</h1>
             
-            <p className="tagline">
+            <p className={styles.tagline}>
               CS+Math at NYU | Dev Team, Tech@NYU ; Quant Team, Stern Business Analytics Club | Prev @ Visa, Interos.ai, AYR.ai
             </p>
             
             {/* social links */}
-            <div className="social-links">
+            <div className={styles.socialLinks}>
               <a href="https://github.com/alissawu" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
@@ -47,7 +49,7 @@ export default function Home() {
               </a>
             </div>
             
-            <p className="bio">
+            <p className={styles.bio}>
               bio placeholder.
             </p>
           </div>
