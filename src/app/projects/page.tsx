@@ -14,7 +14,7 @@ export default function Projects() {
           {/* Project Card - EasyProofFormat */}
           <div className={styles.projectCard}>
             <a 
-              href="/easyproofformat/index.html" 
+              href="https://easyproofformat.alissawu.dev" 
               className={styles.projectImageLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function Projects() {
               <a href="https://github.com/alissawu/easyproofformat" target="_blank" rel="noopener noreferrer">
                 View Code
               </a>
-              <a href="/easyproofformat/index.html" target="_blank" rel="noopener noreferrer">
+              <a href="https://easyproofformat.alissawu.dev" target="_blank" rel="noopener noreferrer">
                 Live Demo
               </a>
             </div>
