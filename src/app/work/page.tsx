@@ -11,7 +11,7 @@ export default function Work() {
         
         <div className={styles.intro}>
           <p>
-            I&apos;m a junior studying CS and Math at NYU. I'm on Tech@NYU's Dev Team, and compete in Stern BAC Quant. I'm a member of Women in Computing, and I volunteer with Give Where You Live! I've attended Point72 Academy, and I was also a DTech Scholar this summer. I'm a National Merit Scholarship Awardee.
+            I&apos;m a junior studying CS and Math at NYU. I&apos;m on Tech@NYU&apos;s Dev Team, and compete in Stern BAC Quant. I&apos;m a member of Women in Computing, and I volunteer with Give Where You Live! I&apos;ve attended Point72 Academy, and I was also a DTech Scholar this summer. I&apos;m a National Merit Scholarship Awardee.
          </p>
          <p>
             SWE @ Visa, Research @ Duke, R&D DS @ Interos, Attendee @ Point72 Academy, SDE @ AYR.ai, Research @ NJIT

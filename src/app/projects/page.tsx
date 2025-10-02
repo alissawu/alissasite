@@ -33,7 +33,7 @@ export default function Projects() {
             </a>
             <h2>EasyProofFormat</h2>
             <p className={styles.projectDescription}>
-              Description of your proof formatting tool.
+              Makes it easy to format proofs, boolean algebra, set notation, etc. Intuitive conversion to latex. 
             </p>
             <div className={styles.techTags}>
               <span>HTML</span>
@@ -41,7 +41,7 @@ export default function Projects() {
               <span>JavaScript</span>
             </div>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/alissawu/easyproofformat" target="_blank" rel="noopener noreferrer">
                 View Code
               </a>
               <a href="/easyproofformat/index.html" target="_blank" rel="noopener noreferrer">
