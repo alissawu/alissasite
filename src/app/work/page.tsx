@@ -9,12 +9,9 @@ export default function Work() {
       <main className={styles.workPage}>
         <h1>Work Experience</h1>
         
-        <div className={styles.intro}>
-          <p>
-            I&apos;m a junior studying CS and Math at NYU. I&apos;m on Tech@NYU&apos;s Dev Team, and compete in Stern BAC Quant. I&apos;m a member of Women in Computing, and I volunteer with Give Where You Live! I&apos;ve attended Point72 Academy, and I was also a DTech Scholar this summer. I&apos;m a National Merit Scholarship Awardee.
-         </p>
+        <div className={styles.intro}> 
          <p>
-            SWE @ Visa, Research @ Duke, R&D DS @ Interos, Attendee @ Point72 Academy, SDE @ AYR.ai, Research @ NJIT
+            SWE @ Visa, Data Research @ Duke, R&D DS @ Interos, Attendee @ Point72 Academy, SDE @ AYR.ai, Research @ NJIT
             Dev @ Tech@NYU, Quant Competitotr @ Stern BAC, Member @ WinC, Scholar @ DTech
          </p>
         </div>

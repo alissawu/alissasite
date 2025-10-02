@@ -1,0 +1,64 @@
+.problemPage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #666;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.problemContent h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.question,
+.solution {
+  margin-bottom: 2rem;
+}
+
+.question h2,
+.solution h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.question p,
+.solution p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .problemPage {
+    padding: 3rem 1.5rem;
+  }
+
+  .problemContent h1 {
+    font-size: 1.5rem;
+  }
+
+  .question h2,
+  .solution h2 {
+    font-size: 1.25rem;
+  }
+}
