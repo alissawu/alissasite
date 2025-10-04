@@ -107,10 +107,9 @@ export default function Projects() {
             <h2>Reddit Real-Time Sentiment Analysis</h2>
             <p className={styles.projectSubtitle}>NLP Full-Stack Web Application</p>
             <p className={styles.projectDescription}>
-              Real-time sentiment analysis platform for Reddit subreddits using NLP. 
-              Flask-based backend integrates the Reddit API (PRAW) with a fine-tuned DistilBERT model 
-              hosted on Hugging Face Inference Endpoints, cached with Redis, and deployed on Vercel. 
-              Computes average and median sentiment of live subreddit posts.
+              Real-time sentiment analysis platform for Reddit subreddits using NLP. Computes average and median sentiment of subreddit posts.
+              Uses Reddit API (PRAW) and fine-tuned DistilBERT model hosted on Hugging Face Inference Endpoints, cached with Redis. 
+              
             </p>
             <div className={styles.techTags}>
               <span>Python</span>
@@ -151,15 +150,10 @@ export default function Projects() {
             <p className={styles.projectSubtitle}>High-Performance Order Book
           Engine</p>
             <p className={styles.projectDescription}>
-              Test-driven limit order book (LOB) exchange simulator implementing
-          FIFO price-time priority
-              with optimal data structures for sub-microsecond latency. Hybrid
-          indexing: red-black tree
-              (std::map) for O(log L) price-level lookup with O(1) best-bid/ask via
-          begin()/rbegin(),
-              doubly-linked list (std::list) for O(1) FIFO push/pop/erase with
-          stable iterators, and
-              unordered_map for O(1) cancel-by-ID via stored iterator handles.
+              Limit order book exchange sim w/ optimal DSA for
+  low-latency trading. Uses hybrid indexing: std::map (red-black tree) for O(log L)
+  price lookups with O(1) best-bid/ask, std::list for O(1) FIFO operations with stable
+  iterators, and unordered_map for O(1) cancel-by-ID. Read the /planning_docs for thought processes.
             </p>
             <div className={styles.techTags}>
               <span>C++20</span>
