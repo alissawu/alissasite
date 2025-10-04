@@ -160,6 +160,46 @@ export default function Projects() {
             </div>
           </div>
 
+          {/* Project Card - Amazon E-Commerce Simulation */}
+            <div className={styles.projectCard}>
+              <div className={styles.projectImage}>
+                <Image
+                  src="/projects/baseamazon.png"
+                  alt="Amazon E-Commerce Simulation"
+                  width={500}
+                  height={300}
+                />
+              </div>
+              <h2>Amazon E-Commerce Simulation</h2>
+              <p className={styles.projectSubtitle}>CS316 Databases Final Project</p>
+              <p className={styles.projectDescription}>
+                Full-stack e-commerce platform with secure authentication, catalog
+            management,
+                seller inventory, and transaction processing. Optimized PostgreSQL
+            schema with
+                strategic indexing reduced query response times from 800ms+ to 150ms.
+            Built
+                RESTful API architecture in Flask handling concurrent financial
+            transactions
+                with distributed processing capabilities.
+              </p>
+              <div className={styles.techTags}>
+                <span>TypeScript</span>
+                <span>Python</span>
+                <span>Flask</span>
+                <span>PostgreSQL</span>
+                <span>Bootstrap</span>
+                <span>RESTful APIs</span>
+                <span>SQL</span>
+              </div>
+              <div className={styles.projectLinks}>
+                <a href="https://github.com/alissawu/baseamazon" target="_blank"
+                  rel="noopener noreferrer">
+                  View Code
+                </a>
+              </div>
+            </div>
+
           {/* Project Card - EasyProofFormat */}
           <div className={styles.projectCard}>
             <a
