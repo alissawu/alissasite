@@ -150,10 +150,8 @@ export default function Projects() {
             <p className={styles.projectSubtitle}>High-Performance Order Book
           Engine</p>
             <p className={styles.projectDescription}>
-              Limit order book exchange sim w/ optimal DSA for
-  low-latency trading. Uses hybrid indexing: std::map (red-black tree) for O(log L)
-  price lookups with O(1) best-bid/ask, std::list for O(1) FIFO operations with stable
-  iterators, and unordered_map for O(1) cancel-by-ID. Read the /planning_docs for thought processes.
+              Limit order book exchange sim w/ optimal DSA for low-latency trading. Uses hybrid indexing: std::map (red-black tree) for O(log L)
+              price lookups with O(1) best-bid/ask, std::list for O(1) FIFO operations with stable iterators, and unordered_map for O(1) cancel-by-ID. Read the /planning_docs for thought processes.
             </p>
             <div className={styles.techTags}>
               <span>C++20</span>
@@ -168,6 +166,44 @@ export default function Projects() {
               </a>
             </div>
           </div>
+
+          {/* Project Card - Hacktech */}
+            <div className={styles.projectCard}>
+              <div className={styles.projectImage}>
+                <Image 
+                  src="/projects/hacktech.png" 
+                  alt="MarketMentor"
+                  width={500}
+                  height={300}
+                />
+              </div>
+              <h2>MarketMentor</h2>
+              <p className={styles.projectSubtitle}>Hacktech&apos;25 Finalist</p>
+              <p className={styles.projectDescription}>
+                AI-powered financial news clustering system using OpenAI embeddings and Flask
+                APIs to generate market predictions with confidence scores and personalized
+                portfolio insights. Implemented real-time analysis pipeline processing
+                AlphaVantage/Polygon data with sub-second response times. Built React/TypeScript
+                dashboards visualizing event relationships and risk/opportunity signals.
+              </p>
+              <div className={styles.techTags}>
+                <span>Python</span>
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Flask</span>
+                <span>MongoDB</span>
+                <span>OpenAI</span>
+                <span>AlphaVantage</span>
+                <span>Polygon API</span>
+              </div>
+              <div className={styles.projectLinks}>
+                <a href="https://github.com/LiSiruiRay/hacktech" target="_blank" 
+                  rel="noopener noreferrer">
+                  View Code
+                </a>
+              </div>
+            </div>
+
           
         </div>
       </main>
