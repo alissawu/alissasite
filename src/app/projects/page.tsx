@@ -9,7 +9,9 @@ export default function Projects() {
 
       <main className={styles.projectsPage}>
         <h1>Projects</h1>
-
+        <p className={styles.tagline}>
+            non-comprehensive, still working on adding everything...
+        </p>
         <div className={styles.projectsGrid}>
           {/* Project Card - MarketMentor */}
           <div className={styles.projectCard}>

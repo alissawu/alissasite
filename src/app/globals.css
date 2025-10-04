@@ -19,7 +19,12 @@ h1 {
   letter-spacing: -0.02em;
   margin-bottom: 1rem;
 }
-
+.tagline {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
 
 /* links */
 a {
