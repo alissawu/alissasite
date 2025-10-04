@@ -137,26 +137,39 @@ export default function Projects() {
           </div>
 
 
-          {/* Project Card 4 */}
+          {/* Project Card - Mini Trading System */}
           <div className={styles.projectCard}>
             <div className={styles.projectImage}>
               <Image 
-                src="/projects/project1.png" 
-                alt="Project Name"
+                src="/projects/miniex.png" 
+                alt="Mini Trading System"
                 width={500}
                 height={300}
               />
             </div>
-            <h2>Fourth Project</h2>
+            <h2>Mini Trading System</h2>
+            <p className={styles.projectSubtitle}>High-Performance Order Book
+          Engine</p>
             <p className={styles.projectDescription}>
-              Final project placeholder for layout testing.
+              Test-driven limit order book (LOB) exchange simulator implementing
+          FIFO price-time priority
+              with optimal data structures for sub-microsecond latency. Hybrid
+          indexing: red-black tree
+              (std::map) for O(log L) price-level lookup with O(1) best-bid/ask via
+          begin()/rbegin(),
+              doubly-linked list (std::list) for O(1) FIFO push/pop/erase with
+          stable iterators, and
+              unordered_map for O(1) cancel-by-ID via stored iterator handles.
             </p>
             <div className={styles.techTags}>
-              <span>C++</span>
-              <span>OpenGL</span>
+              <span>C++20</span>
+              <span>Data Structures</span>
+              <span>CMake</span>
+              <span>Algorithm Optimization</span>
             </div>
             <div className={styles.projectLinks}>
-              <a href="https://github.com/..." target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/alissawu/miniex" target="_blank" 
+          rel="noopener noreferrer">
                 View Code
               </a>
             </div>
