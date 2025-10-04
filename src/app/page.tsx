@@ -30,7 +30,7 @@ export default function Home() {
             <h1>ALISSA WU</h1>
             
             <p className={styles.tagline}>
-              CS+Math at NYU | Dev Team @ Tech@NYU, Quant Team @ Stern Business Analytics Club
+              CS+Math at NYU | Dev Team @ Tech@NYU
             </p>
   
             <p>
@@ -59,8 +59,8 @@ export default function Home() {
             I want to add a page of interesting math problems I&apos;ve solved, if I can find all of them.
             </p>
             <p className={styles.bio}>
-            I&apos;m on Tech@NYU&apos;s Dev Team, and compete in Stern BAC Quant. 
-            I&apos;m a member of Women in Computing, and I volunteer with Give Where You Live! 
+            I&apos;m on Tech@NYU&apos;s Dev Team,
+            I&apos;m a member of Women in Computing, Business Analytics Club, and I volunteer with Give Where You Live! 
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I was also a DTech Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.

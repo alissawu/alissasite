@@ -32,20 +32,6 @@ export default function Work() {
             </div>
           </div>
 
-          {/* Stern BAC Quant */}
-          <div className={styles.timelineItem}>
-            <div className={styles.dot}></div>
-            <div className={styles.content}>
-              <h2>Stern Business Analytics Club - Quant Team</h2>
-              <p className={styles.role}>Competitor • Sept 2025 - Present</p>
-              <p className={styles.tech}>Python, Finance, Probability & Stochastic Processes, Linear Algebra</p>
-              <ul>
-                <li>Study quantitative finance concepts including options trading, valuation, and market making.</li>
-                <li>Build foundational skills in linear algebra, multivariate calculus, probability, optimization, and programming.</li>
-                <li>Participate in trading competitions and develop Python algorithms for quantitative trading strategies.</li>
-              </ul>
-            </div>
-          </div>
 
           {/* Visa */}
           <div className={styles.timelineItem}>

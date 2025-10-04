@@ -97,15 +97,14 @@ export default function Projects() {
             <h2>Reddit Real-Time Sentiment Analysis</h2>
             <p className={styles.projectSubtitle}>NLP Full-Stack Web Application</p>
             <p className={styles.projectDescription}>
-              Real-time sentiment analysis platform for Reddit subreddits using NLP.
-              Flask-based web app integrates Reddit API (PRAW) with TextBlob for
-              sentiment scoring, analyzing post titles to compute average/median
-              sentiment metrics. Includes custom PyTorch LSTM model trained on IMDB
-              dataset for binary sentiment classification.
+              Real-time sentiment analysis platform for Reddit subreddits using NLP. 
+              Flask-based web app integrates the Reddit API (PRAW) with a fine-tuned DistilBERT model hosted on Hugging Face to score post titles, 
+              computing average and median sentiment metrics.
             </p>
             <div className={styles.techTags}>
               <span>Python</span>
               <span>Javascript</span>
+              <span>HuggingFace</span>
               <span>Flask</span>
               <span>PyTorch</span>
               <span>LSTM</span>
@@ -117,9 +116,6 @@ export default function Projects() {
               <a href="https://github.com/alissawu/realtime-reddit-sentiments" target="_blank" 
                 rel="noopener noreferrer">
                 View Code
-              </a>
-              <a href="https://quiet-sierra-95106-5ca898adfa7b.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                Live Demo
               </a>
             </div>
           </div>
