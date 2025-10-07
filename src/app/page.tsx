@@ -58,7 +58,7 @@ export default function Home() {
             I&apos;m mainly a software engineer, though I have done some MLE projects, and I enjoy math. 
             </p>
             <p className={styles.bio}>
-            I&apos;m on Tech@NYU&apos;s Dev Team, NYU's premier / most competitive software organization.
+            I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s premier / most competitive software organization.
             I&apos;m a member of Women in Computing, Business Analytics Club, and I volunteer with Give Where You Live! 
             </p>
             <p className={styles.bio}>
