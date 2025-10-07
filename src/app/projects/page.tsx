@@ -208,14 +208,10 @@ export default function Projects() {
               <h2>Amazon E-Commerce Simulation</h2>
               <p className={styles.projectSubtitle}>CS316 Databases Final Project</p>
               <p className={styles.projectDescription}>
-                Full-stack e-commerce platform with secure authentication, catalog
-            management,
-                seller inventory, and transaction processing. Optimized PostgreSQL
-            schema with
-                strategic indexing reduced query response times from 800ms+ to 150ms.
-            Built
-                RESTful API architecture in Flask handling concurrent financial
-            transactions
+                Full-stack e-commerce platform with secure authentication, catalog management,
+                seller inventory, and transaction processing. Optimized PostgreSQL schema with
+                strategic indexing reduced query response times from 800ms+ to 150ms. Built
+                RESTful API architecture in Flask handling concurrent financial transactions
                 with distributed processing capabilities.
               </p>
               <div className={styles.techTags}>
@@ -258,7 +254,8 @@ export default function Projects() {
             <h2>EasyProofFormat</h2>
             <p className={styles.projectSubtitle}>Discrete Math Side Project</p>
             <p className={styles.projectDescription}>
-              Makes it easy to format proofs, boolean algebra, set notation, etc. Intuitive conversion to latex.
+              Makes it easy to format proofs, boolean algebra, set notation, etc. Intuitive conversion to latex. 
+              Unadvertised (still improving it) but used by 10+ classmates via word of mouth link distribution.
             </p>
             <div className={styles.techTags}>
               <span>HTML</span>
