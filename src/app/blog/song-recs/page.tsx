@@ -24,7 +24,7 @@ export default function ExamplePost() {
               I didn&apos;t understand it at first, but a summer in SF showed me that the people who truly do what they want are happier. 
               He&apos;s been at Stanford for the last 4 years, so I guess the culture inspired him sooner. 
               Anyway, he&apos;s a hardcore West-Coast lover, and I&apos;ve spent my whole life on the East Coast, 
-              so the goal here was to introduce NYC-ish sounds to his sound-repository.
+              so he wanted to increase his sound-repository, and asked me to send some songs.
             </p>
             <p>
               So this isn&apos;t geared to my tastes, but rather the overlap of what I like and what I hear in NYC,
