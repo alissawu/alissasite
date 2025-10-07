@@ -30,12 +30,9 @@ export default function Home() {
             <h1>ALISSA WU</h1>
             
             <p className={styles.tagline}>
-              CS+Math at NYU | Dev Team @ Tech@NYU
+              CS+Math at NYU | Dev Team @ Tech@NYU | Prev Software & Data @ Visa, Interos, Point72, Duke, AYR, NJIT
             </p>
-  
-            <p>
-              Prev SWE @ Visa, R&D DS @ Interos.ai, Data Science Research @ Duke, SDE @ AYR.ai, Algo Research @ NJIT
-            </p>
+
             
             {/* social links */}
             <div className={styles.socialLinks}>
