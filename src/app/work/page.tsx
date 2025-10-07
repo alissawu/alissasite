@@ -23,11 +23,11 @@ export default function Work() {
             <div className={styles.content}>
               <h2>Tech@NYU Dev Team</h2>
               <p className={styles.role}>Developer • Sept 2025 - Present</p>
-              <p className={styles.tech}>Next.js, Bun, Convex API, TypeScript, SQL</p>
+              <p className={styles.tech}>Next.js, TypeScript, Cloudfare Workers, Convex API, SQLite, Bun</p>
               <ul>
                 <li>Building an all-in-one app for NYU students to find courses, compare professors, and organize schedules.</li>
                 <li>Developing a faster, more optimized alternative to Albert with clean UI and responsive calendar features.</li>
-                <li>Working with weekly team meetings, workshops, and targeting deployment before Spring 2026 course registration.</li>
+                <li>Working on a fast-paced team targeting deployment before Spring 2026 course registration.</li>
               </ul>
             </div>
           </div>

@@ -82,6 +82,39 @@ export default function Projects() {
             </div>
           </div>
 
+          {/* Project Card - CourseHelper */}
+          <div className={styles.projectCard}>
+            <div className={styles.projectImage}>
+              <Image
+                src="/projects/coursehelper.png"
+                alt="CourseHelper"
+                width={500}
+                height={300}
+              />
+            </div>
+            <h2>CourseHelper</h2>
+            <p className={styles.projectSubtitle}>Tech@NYU Project in-Progress</p>
+            <p className={styles.projectDescription}>
+              Serverless web scraping system using Cloudflare Workers to extract and parse NYU
+          course bulletin data. Building type-safe API layer with Zod validation connecting scraper worker to Convex backend, processing thousands of
+          course records with built-in error handling and retry logic. Architected within Turborepo
+          monorepo alongside 12-person team following PR-based reviews and conventional commits.
+            </p>
+            <div className={styles.techTags}>
+              <span>TypeScript</span>
+              <span>Next.js</span>
+              <span>Cloudflare Workers</span>
+              <span>Convex</span>
+              <span>Drizzle ORM</span>
+              <span>SQLite </span>
+              <span>Turborepo</span>
+              <span>Zod</span>
+            </div>
+            <div className={styles.projectLinks}>
+            </div>
+          </div>
+
+
           {/* Project Card - Reddit Sentiment Analysis */}
           <div className={styles.projectCard}>
             <a
