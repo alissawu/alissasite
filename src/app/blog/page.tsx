@@ -1,8 +1,6 @@
 import Navigation from '@/components/Navigation';
 import Link from 'next/link';
 import styles from './blog.module.css';
-import fs from 'fs';
-import path from 'path';
 
 interface BlogPost {
   id: string;
@@ -11,35 +9,16 @@ interface BlogPost {
   preview: string;
 }
 
-// dynamically load all blog posts from the posts directory
-function getBlogPosts(): BlogPost[] {
-  const postsDirectory = path.join(process.cwd(), 'src/app/blog/posts');
-
-  // if no posts, return / render nothing
-  if (!fs.existsSync(postsDirectory)) {
-    return [];
+const posts: BlogPost[] = [
+  {
+    id: 'song-recs',
+    title: 'Songs to Recommend to a DJ',
+    date: 'October 7, 2025',
+    preview: 'Song recs for west-coast music artists looking to diversify their sounds with east-coast music'
   }
-
-  const fileNames = fs.readdirSync(postsDirectory);
-  const posts = fileNames
-    .filter((fileName: string) => fileName.endsWith('.tsx') || fileName.endsWith('.ts'))
-    .map((fileName: string) => {
-      const id = fileName.replace(/\.(tsx|ts)$/, '');
-      const filePath = path.join(postsDirectory, fileName);
-
-      // dynamic import get metadata
-      const postModule = require(`./posts/${fileName.replace(/\.(tsx|ts)$/, '')}`);
-      return {
-        id,
-        ...postModule.metadata
-      };
-    });
-
-  return posts;
-}
+];
 
 export default function Blog() {
-  const posts = getBlogPosts();
 
   return (
     <>
