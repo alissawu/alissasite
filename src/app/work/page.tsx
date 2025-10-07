@@ -12,7 +12,9 @@ export default function Work() {
         <div className={styles.intro}> 
          <p>
             SWE @ Visa, Data Research @ Duke, R&D DS @ Interos, Attendee @ Point72 Academy, SDE @ AYR.ai, Research @ NJIT
-            Dev @ Tech@NYU, Quant Competitotr @ Stern BAC, Member @ WinC, Scholar @ DTech
+          </p>
+          <p>
+            Dev @ Tech@NYU, Competitor @ Stern BAC, Member @ WinC, Member @ NYU BUGS, Scholar @ DTech
          </p>
         </div>
 
