@@ -31,19 +31,19 @@ export default function ExamplePost() {
               I&apos;ll probably revise it later...
             </p>
             <p>
-              Classic EDM-ish: 
+              Classic EDM-ish: <br />
               Rave Love - W&W, AXMO, SONJA <br />
               edmLUV - nanobii <br />
               Next to Me - Mqx <br />
               Back Home - Gym Class Heroes, suyan remix <br />
               Sonder x Blame Myself - Kronus Mashup (soundcloud) <br />
               <hr />
-              UK Speed Garage:
+              UK Speed Garage: <br />
               Black Beatles - Rae Sremmurd, Leo Wait remix <br />
               Yosemite - Wilkinson Remix - KETTAMA <br />
               Never Wanted It To End - FULLCLIP <br />
               <hr />
-              Vibes:
+              Vibes: <br />
               ava - xo <br />
               Gajowka - Bassvictim <br />
               Girl Party - MGNA Crrta <br />
@@ -52,8 +52,8 @@ export default function ExamplePost() {
               rotten - anna luna <br />
               Xoxo - Feng <br />
               <hr />
-              Alt Vocals:
-              blush [2019] - damon r.
+              Alt Vocals: <br />
+              blush [2019] - damon r. <br />
               Hot Fun - The Hellp <br />
               Ether - The Hellp <br />
               Forever salty - Bassvictim <br />
@@ -62,13 +62,13 @@ export default function ExamplePost() {
               Under Your Spell - Snow Strippers <br />
               beginning - 2hollis <br />
               <hr />
-              Ethereal vibe: 
+              Ethereal vibe: <br />
               Electronica - Brothel in Belize <br />
               Passionate Highs - Snow Strippers <br />
               Days - Suzy Sheer <br />
               Cycles - Switch Angel Remix - DJ_Dave, Switch Angel
               <hr />
-              Electro-dance:
+              Electro-dance: <br />
               movies for guys - Jane Remover <br />
               JAM! - BETWEEN FRIENDS <br />
               CECIL Mc BEE - Lilniina <br />
