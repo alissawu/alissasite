@@ -11,6 +11,7 @@ export default function Navigation() {
         <li><Link href="/projects">Projects</Link></li>
         <li><Link href="/work">Work</Link></li>
         <li><Link href="/math">Math</Link></li>
+        <li><Link href="/blog">Blog</Link></li>
       </ul>
     </nav>
   );

@@ -1,0 +1,62 @@
+.postPage {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: black;
+}
+
+.postContent {
+  line-height: 1.8;
+}
+
+.postContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.date {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.postContent section {
+  margin-bottom: 2rem;
+}
+
+.postContent h2 {
+  font-size: 1.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.postContent p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .postPage {
+    padding: 3rem 1.5rem;
+  }
+
+  .postContent h1 {
+    font-size: 2rem;
+  }
+
+  .postContent h2 {
+    font-size: 1.5rem;
+  }
+}

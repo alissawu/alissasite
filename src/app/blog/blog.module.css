@@ -1,0 +1,78 @@
+.blogPage {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blogPage h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.postsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.postCard {
+  display: block;
+  padding: 1.5rem 2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.postCard:hover {
+  background: black;
+  color: white;
+  transform: translateX(4px);
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.postTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.postDate {
+  font-size: 0.875rem;
+  color: #666;
+  margin: 0;
+}
+
+.postPreview {
+  font-size: 0.875rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.postCard:hover .postDate,
+.postCard:hover .postPreview {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .blogPage {
+    padding: 3rem 1.5rem;
+  }
+
+  .postCard {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .postTitle {
+    font-size: 0.95rem;
+  }
+}
