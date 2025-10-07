@@ -58,17 +58,16 @@ export default function Home() {
             I&apos;m mainly a software engineer, though I have done some MLE projects, and I enjoy math. 
             </p>
             <p className={styles.bio}>
-            I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s premier / most competitive software organization.
-            I&apos;m a member of Women in Computing, Business Analytics Club, and I volunteer with Give Where You Live! 
+            I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s premier & most competitive software organization.
+            I&apos;m a member of Business Analytics Club, BUGS (Open Source Club), and I volunteer with Give Where You Live! 
             </p>
             <p className={styles.bio}>
-            I&apos;ve attended Point72 Investment Academy. I was also a DTech Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
+            I&apos;ve attended Point72 Investment Academy. I was also a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
             I&apos;m also hoping to add blog posts; at least one would be about Garry Tan&apos;s &quot;Prompt or Be Prompted&quot; speech. 
             </p>
             <p className={styles.bio}>
             I&apos;m a National Merit Scholarship Awardee.
-            I transferred from Duke for cultural fit reasons. 
-            Pre-transfer I was involved with Duke Quant, Art Union (Events Committee), and DTech (still involved!). 
+            Pre-transfer I was involved with Duke Quant and DUU Art Union (Events Committee). 
             </p>
           </div>
         </section>
