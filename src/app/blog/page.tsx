@@ -14,7 +14,7 @@ const posts: BlogPost[] = [
     id: 'song-recs',
     title: 'Songs to Recommend to a DJ',
     date: 'October 7, 2025',
-    preview: 'Song recs for west-coast music artists looking to diversify their sounds with east-coast music'
+    preview: 'After a summer at Citadel, my friend decided to drop quant and pursue his lifelong dream of being a DJ.'
   }
 ];
 

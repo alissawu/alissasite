@@ -20,15 +20,15 @@ export default function ExamplePost() {
 
           <section>
             <p>
-              I have a friend who dropped quant to pursue being a DJ. He&apos;s a hardcore West-Coast lover, 
-              and I&apos;ve spent my whole life on the East Coast (aside from this summer in SF, which I really liked!), 
+              After a summer at Citadel, my friend decided to drop quant and pursue his lifelong dream of being a DJ. 
+              I didn&apos;t understand it at first, but a summer in SF showed me that the people who truly do what they want are happier. 
+              He&apos;s been at Stanford for the last 4 years, so I guess the culture inspired him sooner. 
+              Anyway, he&apos;s a hardcore West-Coast lover, and I&apos;ve spent my whole life on the East Coast, 
               so the goal here was to introduce NYC-ish sounds to his sound-repository.
             </p>
             <p>
               So this isn&apos;t geared to my tastes, but rather the overlap of what I like and what I hear in NYC,
-              along with some unique sounds I thought were pretty good.
-              Obviously the categories aren&apos;t great, and there&apos;s a lot of overlap, but this is fun for a first blog post. 
-              I&apos;ll probably revise it later...
+              along with some unique sounds I thought were pretty good. The categories are not rigorous.
             </p>
             <p>
               Classic EDM-ish: <br />
