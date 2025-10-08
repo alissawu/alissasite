@@ -43,9 +43,11 @@ export default function Work() {
               <p className={styles.role}>Software Engineer Intern • May 2025 - Aug 2025</p>
               <p className={styles.tech}>Python, MCP, Langchain, Langgraph, JIRA, Kafka, Agile/Scrum, CI/CD</p>
               <ul>
-                <li>Built incident analysis system reducing resolution time by 75%, processing 1.5K+ monthly incidents through automated Langchain correlation pipeline with 91.5% accuracy</li>
-                <li>Implemented event-driven architecture using Kafka for real-time incident streaming, handling 2000+ JIRA tickets with 60% memory reduction using Python async processing and connection pooling</li>
-                <li>Collaborated with 2 cross-functional teams in Agile sprints; participated in daily code reviews</li>
+                <li>Built AI incident analysis system reducing MTTR by 75% for 1.5k monthly incidents with 91.4% root cause accuracy</li>
+                <li>Increased LangChain agent capacity by 36% via async streaming, connection pooling, and intelligent codebase context retrieval (MCP)</li>
+                <li>Engineered parallel search pipeline processing 2.5k+ JIRA tickets per incident via Python asyncio with batched API calls, connection pooling, and streaming results</li>
+                <li>Wrote onboarding documentation and streamlined adoption in global SRE teams</li>
+                <li>Worked in Agile/Scrum sprint system with daily code reviews</li>
               </ul>
             </div>
           </div>
@@ -73,7 +75,7 @@ export default function Work() {
               <p className={styles.tech}>Python, PyPDF, Selenium, OCR, SQL, LLM</p>
               <ul>
                 <li>Built scalable data pipeline processing 10K+ documents using Python and MongoDB</li>
-                <li>Built Flask REST APIs processing 1000+ requests/second for supply chain analysis with optimized caching</li>
+                <li>Implemented MongoDB caching layer with TTL indexes and query optimization, reducing preprocessing time by 32%</li>
                 <li>Wrote automated testing suite and monitoring dashboards ensuring data pipeline reliability</li>
               </ul>
             </div>
@@ -133,7 +135,7 @@ export default function Work() {
               <ul>
                 <li>Improved handwriting classification by 28% with Transformer-based OCR model</li>
                 <li>Reduced data retrieval time by 64% by developing automated web scraper in Python with Selenium</li>
-                <li>Developed responsive product features in React with MVC architecture patterns for A/B testing</li>
+                <li>Developed responsive product features in React (real-time dashboards, alert system, data visualization) with MVC architecture patterns for A/B testing</li>
               </ul>
             </div>
           </div>

@@ -51,7 +51,7 @@ export default function Home() {
             I&apos;m a member of Business Analytics Club, BUGS (Open Source Club), and I volunteer with Give Where You Live!
             </p>
             <p className={styles.bio}>
-            I&apos;ve attended Point72 Investment Academy. I was also a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
+            I&apos;ve attended Point72 Investment Academy. I became a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
             I&apos;m also hoping to add blog posts; at least one would be about Garry Tan&apos;s &quot;Prompt or Be Prompted&quot; speech.
             </p>
             <p className={styles.bio}>
