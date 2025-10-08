@@ -43,7 +43,8 @@ export default function Home() {
 
             <p className={styles.bio}>
             I&apos;m a junior studying CS and Math at NYU.
-            I&apos;m mainly a software engineer, though I have done some data science / MLE work, and I&apos;m interested in math.
+            I&apos;m mainly a software engineer, though I have done some data science / MLE work.
+            I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc), which is what my Math page is about.
             </p>
             <p className={styles.bio}>
             I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s premier & most competitive software organization.
