@@ -40,6 +40,7 @@ export default function Math() {
               key={problem.id}
               href={`/math/${problem.id}`}
               className={styles.problemCard}
+              prefetch={true}
             >
               <div className={styles.problemContent}>
                 <p className={styles.problemTitle}>{problem.title}</p>

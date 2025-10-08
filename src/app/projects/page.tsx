@@ -1,7 +1,8 @@
 import Navigation from '@/components/Navigation';
 import Image from 'next/image';
 import styles from './projects.module.css';
-
+// ONLY PUT PRIORITY FOR THE FIRST 8 PROJECTS. IF YOU CHANGE THE ORDER REMOVE IT
+// CUZ MAX, ONLY THE FIRST 8 ARE SEEN ON FULL-SCREEN
 export default function Projects() {
   return (
     <>
@@ -92,6 +93,7 @@ export default function Projects() {
                 alt="CourseHelper"
                 width={500}
                 height={300}
+                priority
               />
             </div>
             <h2>CourseHelper</h2>
@@ -131,6 +133,7 @@ export default function Projects() {
                   alt="Reddit Real-Time Sentiment Analysis"
                   width={500}
                   height={300}
+                  priority
                 />
                 <div className={styles.imageOverlay}>
                   <span>Live Demo</span>
@@ -175,6 +178,7 @@ export default function Projects() {
                 alt="Mini Trading System"
                 width={500}
                 height={300}
+                priority
               />
             </div>
             <h2>Mini Trading System</h2>
@@ -205,6 +209,7 @@ export default function Projects() {
                   alt="Amazon E-Commerce Simulation"
                   width={500}
                   height={300}
+                  priority
                 />
               </div>
               <h2>Amazon E-Commerce Simulation</h2>
@@ -247,6 +252,7 @@ export default function Projects() {
                   alt="EasyProofFormat"
                   width={500}
                   height={300}
+                  priority
                 />
                 <div className={styles.imageOverlay}>
                   <span>Live Demo</span>

@@ -33,6 +33,7 @@ export default function Blog() {
               key={post.id}
               href={`/blog/${post.id}`}
               className={styles.postCard}
+              prefetch={true}
             >
               <div className={styles.postContent}>
                 <p className={styles.postTitle}>{post.title}</p>
