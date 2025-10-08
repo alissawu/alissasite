@@ -21,6 +21,7 @@ export default function Projects() {
                 alt="MarketMentor"
                 width={500}
                 height={300}
+                priority
               />
             </div>
             <h2>MarketMentor</h2>
@@ -58,6 +59,7 @@ export default function Projects() {
                 alt="Humanizing the MTA"
                 width={500}
                 height={300}
+                priority
               />
             </div>
             <h2>Humanizing the MTA</h2>
