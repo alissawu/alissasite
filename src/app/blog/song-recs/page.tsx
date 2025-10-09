@@ -35,13 +35,13 @@ export default function ExamplePost() {
               Rave Love - W&W, AXMO, SONJA <br />
               edmLUV - nanobii <br />
               Next to Me - Mqx <br />
-              Back Home - Gym Class Heroes, suyan remix <br />
               Sonder x Blame Myself - Kronus Mashup (soundcloud) <br />
               <hr />
               UK / Speed Garage: <br />
+              Back Home - Gym Class Heroes, suyan remix <br />
               Yosemite - Wilkinson Remix - KETTAMA <br />
               Never Wanted It To End - FULLCLIP <br />
-              BOrderline - Ely Oaks, LAVINIA <br />
+              Borderline - Ely Oaks, LAVINIA <br />
               <hr />
               Grunge Vibes: <br />
               ava - xo <br />
