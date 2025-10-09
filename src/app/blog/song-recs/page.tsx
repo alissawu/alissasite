@@ -68,9 +68,11 @@ export default function ExamplePost() {
               Days - Suzy Sheer <br />
               Cycles - Switch Angel Remix - DJ_Dave, Switch Angel <br />
               <hr />
-              Electro-dance: <br />
+              Electro-dance sleaze: <br />
               movies for guys - Jane Remover <br />
               JAM! - BETWEEN FRIENDS <br />
+              <hr />
+              Alt Pop
               CECIL Mc BEE - Lilniina <br />
             </p>
           </section>
