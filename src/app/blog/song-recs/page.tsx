@@ -66,7 +66,7 @@ export default function ExamplePost() {
               Electronica - Brothel in Belize <br />
               Passionate Highs - Snow Strippers <br />
               Days - Suzy Sheer <br />
-              Cycles - Switch Angel Remix - DJ_Dave, Switch Angel
+              Cycles - Switch Angel Remix - DJ_Dave, Switch Angel <br />
               <hr />
               Electro-dance: <br />
               movies for guys - Jane Remover <br />
