@@ -38,12 +38,12 @@ export default function ExamplePost() {
               Back Home - Gym Class Heroes, suyan remix <br />
               Sonder x Blame Myself - Kronus Mashup (soundcloud) <br />
               <hr />
-              UK Speed Garage: <br />
-              Black Beatles - Rae Sremmurd, Leo Wait remix <br />
+              UK / Speed Garage: <br />
               Yosemite - Wilkinson Remix - KETTAMA <br />
               Never Wanted It To End - FULLCLIP <br />
+              BOrderline - Ely Oaks, LAVINIA <br />
               <hr />
-              Vibes: <br />
+              Grunge Vibes: <br />
               ava - xo <br />
               Gajowka - Bassvictim <br />
               Girl Party - MGNA Crrta <br />
@@ -52,7 +52,7 @@ export default function ExamplePost() {
               rotten - anna luna <br />
               Xoxo - Feng <br />
               <hr />
-              Alt Vocals: <br />
+              Alt Sleaze Vocals: <br />
               blush [2019] - damon r. <br />
               Hot Fun - The Hellp <br />
               Ether - The Hellp <br />
