@@ -74,7 +74,7 @@ export default function Work() {
               <p className={styles.role}>Data Science, Research & Development Intern • Jun 2024 - Jul 2024</p>
               <p className={styles.tech}>Python, PyPDF, Selenium, OCR, SQL, LLM</p>
               <ul>
-                <li>Built scalable data pipeline processing 10K+ documents using Python and MongoDB</li>
+                <li>Built OCR pipeline (Tesseract, Azure AI) processing 10k+ supply chain PDFs with 94% text extraction accuracy</li>
                 <li>Implemented MongoDB caching layer with TTL indexes and query optimization, reducing preprocessing time by 32%</li>
                 <li>Wrote automated testing suite and monitoring dashboards ensuring data pipeline reliability</li>
               </ul>
