@@ -61,7 +61,7 @@ export default function Home() {
             <p>
             I&apos;m driven by a love of exploration, learning, and creation. Software, music, art.
             People become real by creating real things, externalizing intention into the emptiness.
-            It's what makes life meaningful to me.
+            It&apos;s what makes life meaningful to me.
             </p>
 
             {/* social links */}
