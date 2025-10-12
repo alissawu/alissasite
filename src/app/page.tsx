@@ -59,7 +59,7 @@ export default function Home() {
             Pre-transfer I was involved with Duke Quant and DUU Art Union (Events Committee).
             </p>
             <p>
-            I'm driven by a love of exploration, learning, and creation. Software, music, art.
+            I&apos;m driven by a love of exploration, learning, and creation. Software, music, art.
             People become real by creating real things, externalizing intention into the emptiness.
             It's what makes life meaningful to me.
             </p>
