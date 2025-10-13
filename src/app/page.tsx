@@ -58,7 +58,7 @@ export default function Home() {
             I&apos;m a National Merit Scholarship Awardee.
             Pre-transfer I was involved with Duke Quant and DUU Art Union (Events Committee).
             </p>
-            <p>
+            <p className={styles.bio}>
             I&apos;m driven by a love of exploration, learning, and creation. Software, music, art.
             People become real by creating real things, externalizing intention into the emptiness.
             It&apos;s what makes life meaningful to me.
