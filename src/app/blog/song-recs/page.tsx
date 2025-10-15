@@ -1,10 +1,8 @@
-// TEMPLATE FOR NEW BLOG POSTS
-
 import Navigation from '@/components/Navigation';
 import Link from 'next/link';
 import styles from '../post.module.css';
 
-export default function ExamplePost() {
+export default function Poast() {
   return (
     <>
       <Navigation />
