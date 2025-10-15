@@ -13,7 +13,7 @@ export default function Poast() {
         </Link>
 
         <article className={styles.postContent}>
-          <h1>My Thoughts on Jesse Eisenberg, and Zombieland (2009)</h1>
+          <h1>My Thoughts on Jesse Eisenberg and Zombieland (2009)</h1>
           <p className={styles.date}>October 15, 2025 </p>
 
           <section>

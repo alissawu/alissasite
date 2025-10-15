@@ -12,7 +12,7 @@ interface BlogPost {
 const posts: BlogPost[] = [
   {
     id: 'zombieland-2009',
-    title: 'My Thoughts on Jesse Eisenberg, and Zombieland (2009)',
+    title: 'My Thoughts on Jesse Eisenberg and Zombieland (2009)',
     date: 'October 15, 2025',
     preview: 'I\'m into Jesse Eisenberg lately, and wanted to watch one of his movies, so here\'s an honest review of Zombieland (2009).'
   },
