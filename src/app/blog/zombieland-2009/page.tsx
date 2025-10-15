@@ -27,12 +27,12 @@ export default function Poast() {
               highest potential of the experience.), I watched Jesse Eisenberg tiktoks instead, and decided I wanted to watch one of his movies.
             </p>
             <p>
-              &quot;Now You Can See Me&quot; seemed interesting, so for the same reasons as &quot;The Social Network&quot;, I decided to put it off.
-              That left me with some movie about a summer camp, and a zombie movie. I&apos;d actually seen an edit of the zombie movie (to one of my favorite formerly-niche songs! before it blew up on tiktok), 
+              &quot;Now You See Me&quot; seemed interesting, so for the same reasons as &quot;The Social Network&quot;, I decided to put it off.
+              That left me with some movie about a summer camp, and a zombie movie. I&apos;d actually seen an edit of the zombie movie,
               so obviously, I open up a Github issue I&apos;m working on
               for Tech@NYU dev team, and attach my iPad as a second screen, and pull up Zombieland (2009) on some shady piracy site.
               Actually, I went on Netflix first, but after 8 years of using my middle school friend&apos;s account, Netflix finally enforced anti password-sharing by checking if all devices share
-              the same home wifi...Netflix you&apos;re such a ***
+              the same home wifi...Netflix you&apos;re such a 
             </p>
             <p>
               For the record, I probably would get Netflix if I actually watched more than like 2 hours of English media every few weeks...but since I don&apos;t it&apos;s just not worthwhile.
@@ -86,4 +86,3 @@ export default function Poast() {
     </>
   );
 }
-
