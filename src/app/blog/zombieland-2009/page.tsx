@@ -19,8 +19,8 @@ export default function Poast() {
           <section>
             <p>
               Techies <i>love</i> &quot;The Social Network&quot;. It&apos;s practically the holy grail media piece of Bay Area startup culture.
-              And I most commonly see people interested in Mark Zuckerberg, but honestly?
-              Sure, he&apos;s smart and all, but his actor has a <i>much</i> better face. 
+              And I often see people glazing Mark Zuckerberg, but honestly?
+              Sure, he&apos;s smart and agentic and all, but his actor has a <i>much</i> better face. 
               I mean, there are entire TikToks dedicated to analyzing how Zuck&apos;s glowup (new hair and all) was inspired by Jesse Eisenberg.
               So obviously, instead of watching the movie (I don&apos;t watch good movies alone, because a good movie is a good experience, 
               and spending time with friends/loved ones is a good experience, so watching a good movie alone is limiting the
@@ -28,26 +28,26 @@ export default function Poast() {
             </p>
             <p>
               &quot;Now You Can See Me&quot; seemed interesting, so for the same reasons as &quot;The Social Network&quot;, I decided to put it off.
-              That left me with some movie about a summer camp, and a zombie movie. I&apos;d actually seen an edit of the zombie movie (to the song Mishka by Poshlaya Molly!
-              would be much cooler and nicher if it <i>hadn&apos;t</i> just blown up on TikTok. Ugh, my claim to niche taste.), so obviously, I open up this ticket I&apos;m doing
+              That left me with some movie about a summer camp, and a zombie movie. I&apos;d actually seen an edit of the zombie movie (to one of my favorite formerly-niche songs! before it blew up on tiktok), 
+              so obviously, I open up a Github issue I&apos;m working on
               for Tech@NYU dev team, and attach my iPad as a second screen, and pull up Zombieland (2009) on some shady piracy site.
               Actually, I went on Netflix first, but after 8 years of using my middle school friend&apos;s account, Netflix finally enforced anti password-sharing by checking if all devices share
               the same home wifi...Netflix you&apos;re such a ***
             </p>
             <p>
               For the record, I probably would get Netflix if I actually watched more than like 2 hours of English media every few weeks...but since I don&apos;t it&apos;s just not worthwhile.
-              When I get back into [favorite show, redacting because if an opp finds this they might SPOIL it for me and then i will have to do bad things...also no i don&apos;t mean black mirror though that&apos;s also a fave], i will subscribe, cuz it&apos;s a 
-              smoother interface than piracy, which is worth it for my favorite show, but that aside,
+              When I get back into [favorite show, <i>redacting because if an opp finds this they might SPOIL it for me and then i will have to do bad things...</i>], i will subscribe, but that aside,
               nothing else is worthwhile.
             </p>
             <p>
                 Actually, I don&apos;t have much to say about the movie. I thought the intro would be funnier. 
                 It seemed really stupid. There were like no stakes. No relevant backstory to the characters.
                 It was basically a comedy movie. It&apos;s all about Jesse Eisenberg&apos;s character&apos;s quest to pull women basically.
-                I mean it&apos;s a &quot;quest for survival&quot;, but the plot is about him and women.
+                I mean it&apos;s a &quot;quest for survival&quot;, but the plot is about him and women. There are like two.
+                One dies in the first like 5 minutes and the second one keeps stealing his truck from him but he chases after her to get it back and somehow they get together, idk
             </p>
             <p>
-                Also the kiss at the end was really awkward. I could see it coming, and didn&apos;t watch it.
+                Also the kiss at the end was really awkward. I could see it coming, so I didn&apos;t watch it.
                 Not because I&apos;m Puritan or anything, it just didn&apos;t feel like they established the emotional build-up enough.
                 Can movie directors STOP making movies with a male MC, and putting a woman in the &quot;main character group&quot;, and automatically
                 assuming the presence of a man and a woman is enough to imply/establish a romantic subtext? ugh!
