@@ -14,6 +14,12 @@ const posts: BlogPost[] = [
     id: 'song-recs',
     title: 'Songs to Recommend to a DJ',
     date: 'October 7, 2025',
+    preview: 'I don&apos;t watch good movies alone, but I&apos;ve been into Jesse Eisenberg, so here&apos;s an honest review of Zombieland (2009).'
+  },
+  {
+    id: 'song-recs',
+    title: 'Songs to Recommend to a DJ',
+    date: 'October 7, 2025',
     preview: 'After a summer at Citadel, my friend decided to drop quant and pursue his lifelong dream of being a DJ.'
   }
 ];
