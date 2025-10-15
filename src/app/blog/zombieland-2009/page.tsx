@@ -31,13 +31,14 @@ export default function Poast() {
               That left me with some movie about a summer camp, and a zombie movie. I&apos;d actually seen an edit of the zombie movie,
               so obviously, I open up a Github issue I&apos;m working on
               for Tech@NYU dev team, and attach my iPad as a second screen, and pull up Zombieland (2009) on some shady piracy site.
-              Actually, I went on Netflix first, but after 8 years of using my middle school friend&apos;s account, Netflix finally enforced anti password-sharing by checking if all devices share
+              Actually, I went on Netflix first, but after 8 years of using my middle school friend&apos;s account, Netflix finally enforced anti password-sharing 
+              by checking if all devices share
               the same home wifi...Netflix you&apos;re such a 
             </p>
             <p>
               For the record, I probably would get Netflix if I actually watched more than like 2 hours of English media every few weeks...but since I don&apos;t it&apos;s just not worthwhile.
               When I get back into [favorite show, <i>redacting because if an opp finds this they might SPOIL it for me and then i will have to do bad things...</i>], i will subscribe, but that aside,
-              nothing else is worthwhile.
+              no.
             </p>
             <p>
                 Actually, I don&apos;t have much to say about the movie. I thought the intro would be funnier. 
