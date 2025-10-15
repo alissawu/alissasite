@@ -57,7 +57,7 @@ export default function Poast() {
                 Not because I&apos;m Puritan or anything, it just didn&apos;t feel like they established the emotional build-up enough.
                 Can movie directors STOP making movies with a male MC, and putting a woman in the &quot;main character group&quot;, and automatically
                 assuming the presence of a man and a woman is enough to imply/establish a romantic subtext? ugh!
-                you guys are all lazy and don&apos;t know how to write real emotional connection and this is what is wrong with the modern world!
+                you guys are all lazy and don&apos;t know how to write real emotional connection and this is what is wrong with the modern world...
             </p>
             <p>
                 PS: the tiktoks
