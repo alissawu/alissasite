@@ -14,7 +14,7 @@ const posts: BlogPost[] = [
     id: 'zombieland-2009',
     title: 'My Thoughts on Jesse Eisenberg, and Zombieland (2009)',
     date: 'October 15, 2025',
-    preview: 'Lately I\'m into Jesse Eisenberg, and wanted to watch one of his movies, so here\'s an honest review of Zombieland (2009).'
+    preview: 'I\'m into Jesse Eisenberg lately, and wanted to watch one of his movies, so here\'s an honest review of Zombieland (2009).'
   },
   {
     id: 'song-recs',

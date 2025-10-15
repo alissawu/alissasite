@@ -36,7 +36,7 @@ export default function Poast() {
             </p>
             <p>
               For the record, I probably would get Netflix if I actually watched more than like 2 hours of English media every few weeks...but since I don&apos;t it&apos;s just not worthwhile.
-              When I get back into [favorite show, redacting because if an opp finds this they might SPOIL it for me and then i will have to do bad things...also no i don't mean black mirror though that&apos;s also a fave], i will subscribe, cuz it's a 
+              When I get back into [favorite show, redacting because if an opp finds this they might SPOIL it for me and then i will have to do bad things...also no i don&apos;t mean black mirror though that&apos;s also a fave], i will subscribe, cuz it&apos;s a 
               smoother interface than piracy, which is worth it for my favorite show, but that aside,
               nothing else is worthwhile.
             </p>
