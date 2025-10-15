@@ -60,6 +60,8 @@ export default function Poast() {
             <p>
                 PS: the tiktoks
                 <br></br>
+                PPS: they automatically open in a new window, muted. make sure to unmute for the full experience
+                <br></br>
                 <a 
                     href="https://www.tiktok.com/t/ZP8AQuY4R/"
                     target="_blank"
