@@ -14,7 +14,7 @@ export default function EchoPerfectSquare() {
 
         <article className={styles.problemContent}>
           <h1>Echo Perfect Square</h1>
-          <p className={styles.date}>October 2, 2025</p>
+          <p className={styles.date}>September 26, 2025</p>
 
           <section className={styles.question}>
             <h2>Question</h2>

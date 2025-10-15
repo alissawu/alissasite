@@ -14,7 +14,7 @@ export default function CoinFlipProbability() {
 
         <article className={styles.problemContent}>
           <h1>Coin Flip Probability</h1>
-          <p className={styles.date}>October 2, 2025</p>
+          <p className={styles.date}>September 27, 2025</p>
 
           <section className={styles.question}>
             <h2>Question</h2>
