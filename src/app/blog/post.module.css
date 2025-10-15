@@ -47,6 +47,17 @@
   margin-bottom: 1rem;
 }
 
+.postContent a {
+  color: #666;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.postContent a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .postPage {
     padding: 3rem 1.5rem;
