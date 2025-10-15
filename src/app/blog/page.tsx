@@ -11,9 +11,9 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
-    id: 'song-recs',
-    title: 'Songs to Recommend to a DJ',
-    date: 'October 7, 2025',
+    id: 'zombieland-2009',
+    title: 'My Thoughts on Jesse Eisenberg, and Zombieland (2009)',
+    date: 'October 15, 2025',
     preview: 'I don&apos;t watch good movies alone, but I&apos;ve been into Jesse Eisenberg, so here&apos;s an honest review of Zombieland (2009).'
   },
   {
