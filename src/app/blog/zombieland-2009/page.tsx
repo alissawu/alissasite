@@ -54,11 +54,8 @@ export default function Poast() {
             </p>
             <p>
                 (PS: the tiktoks)
-                <a href="https://www.tiktok.com/t/ZP8AQuY4R/">
-                Jesse Eisenberg - Zombieland (2009), Mishka </a>
-                <a href="https://www.tiktok.com/t/ZP8AQrCUk/">
-                Jesse Eisenberg - Zombieland (2009), Pumped Up Kicks
-                </a>
+                <a href="https://www.tiktok.com/t/ZP8AQuY4R/">Jesse Eisenberg - Zombieland (2009), Mishka </a>
+                <a href="https://www.tiktok.com/t/ZP8AQrCUk/">Jesse Eisenberg - Zombieland (2009), Pumped Up Kicks</a>
             </p>
 
 
