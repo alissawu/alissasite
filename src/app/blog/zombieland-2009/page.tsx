@@ -13,7 +13,7 @@ export default function Poast() {
         </Link>
 
         <article className={styles.postContent}>
-          <h1>My Thoughts on Jesse Eisenberg and Zombieland (2009)</h1>
+          <h1>Zombieland (2009)</h1>
           <p className={styles.date}>October 15, 2025 </p>
 
           <section>
@@ -42,6 +42,11 @@ export default function Poast() {
             <p>
                 Actually, I don&apos;t have much to say about the movie. I thought the intro would be funnier. 
                 It seemed really stupid. There were like no stakes. No relevant backstory to the characters.
+                Oh this guy is from Columbus, Ohio. And he has all these rules for how to survive the apocalypse, but he never gets into a situation in which
+                these rules need to be used meaningfully. Like there&apos;s no thematic takeaway. At the start, his goal is to find his family, but oh no Columbus, Ohio is a ghost town apparently, which means they&apos;re all dead,
+                and this leads to like 1 second of sadness before they move on, and the plot continues to give me a feeling of "so that&apos;s happening, sure why not".
+            </p>
+            <p>
                 It was basically a comedy movie. It&apos;s all about Jesse Eisenberg&apos;s character&apos;s quest to pull women basically.
                 I mean it&apos;s a &quot;quest for survival&quot;, but the plot is about him and women. There are like two.
                 One dies in the first like 5 minutes and the second one keeps stealing his truck from him but he chases after her to get it back and somehow they get together, idk
