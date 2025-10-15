@@ -52,11 +52,20 @@ export default function Poast() {
                 Can movie directors STOP making movies with a male MC, and putting a woman in the &quot;main character group&quot;, and automatically
                 assuming the presence of a man and a woman is enough to imply/establish a romantic subtext? ugh!
             </p>
-            <p>
-                (PS: the tiktoks)
-                <a href="https://www.tiktok.com/t/ZP8AQuY4R/">Jesse Eisenberg - Zombieland (2009), Mishka </a>
-                <a href="https://www.tiktok.com/t/ZP8AQrCUk/">Jesse Eisenberg - Zombieland (2009), Pumped Up Kicks</a>
-            </p>
+            <a 
+                href="https://www.tiktok.com/t/ZP8AQuY4R/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Jesse Eisenberg - Zombieland (2009), Mishka
+            </a>
+            <a 
+                href="https://www.tiktok.com/t/ZP8AQrCUk/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Jesse Eisenberg - Zombieland (2009), Pumped Up Kicks
+            </a>
 
 
           </section>
