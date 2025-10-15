@@ -44,7 +44,7 @@ export default function Poast() {
                 It seemed really stupid. There were like no stakes. No relevant backstory to the characters.
                 Oh this guy is from Columbus, Ohio. And he has all these rules for how to survive the apocalypse, but he never gets into a situation in which
                 these rules need to be used meaningfully. Like there&apos;s no thematic takeaway. At the start, his goal is to find his family, but oh no Columbus, Ohio is a ghost town apparently, which means they&apos;re all dead,
-                and this leads to like 1 second of sadness before they move on, and the plot continues to give me a feeling of "so that&apos;s happening, sure why not".
+                and this leads to like 1 second of sadness before they move on, and the plot continues to give me a feeling of &quot;so that&apos;s happening, sure why not&quot;.
             </p>
             <p>
                 It was basically a comedy movie. It&apos;s all about Jesse Eisenberg&apos;s character&apos;s quest to pull women basically.
