@@ -11,6 +11,18 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    id: 'manga',
+    title: 'Manga Panels I Like (noncomprehensive)',
+    date: 'December 17, 2025',
+    preview: 'This won\'t be comprehensive. since there are some manga I just don\'t feel like revisiting, but I wanted a log somewhere.'
+  },
+  {
+    id: 'bert',
+    title: 'How BERT Works (incomplete)',
+    date: 'December 16, 2025',
+    preview: 'I\'m mostly just writing this to log what I learned in NLP. ALso I\'m not done.'
+  },
+  {
     id: 'zombieland-2009',
     title: 'Zombieland (2009)',
     date: 'October 15, 2025',
