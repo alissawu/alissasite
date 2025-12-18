@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from './PanelCarousel.module.css';
 
@@ -16,6 +16,7 @@ interface PanelCarouselProps {
 
 export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
   const goToPrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? panels.length - 1 : prev - 1));
@@ -24,6 +25,24 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
   const goToNext = () => {
     setCurrentIndex((prev) => (prev === panels.length - 1 ? 0 : prev + 1));
   };
+
+  const openLightbox = () => setLightboxOpen(true);
+  const closeLightbox = () => setLightboxOpen(false);
+
+  // Close on escape key
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeLightbox();
+    };
+    if (lightboxOpen) {
+      document.addEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = 'hidden';
+    }
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = '';
+    };
+  }, [lightboxOpen]);
 
   if (panels.length === 0) return null;
 
@@ -40,7 +59,7 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
           &lt;
         </button>
 
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainer} onClick={openLightbox}>
           {/* Render all images, only show current one */}
           {panels.map((panel, index) => (
             <Image
@@ -51,7 +70,8 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
               style={{
                 objectFit: 'contain',
                 opacity: index === currentIndex ? 1 : 0,
-                transition: 'opacity 0.15s ease'
+                transition: 'opacity 0.15s ease',
+                cursor: 'pointer'
               }}
               priority={index < 3}
             />
@@ -72,6 +92,24 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
       <div className={styles.indicator}>
         {currentIndex + 1} / {panels.length}
       </div>
+
+      {/* Lightbox Modal */}
+      {lightboxOpen && (
+        <div className={styles.lightboxOverlay} onClick={closeLightbox}>
+          <button className={styles.lightboxClose} onClick={closeLightbox}>
+            &times;
+          </button>
+          <div className={styles.lightboxContent} onClick={(e) => e.stopPropagation()}>
+            <Image
+              src={panels[currentIndex].src}
+              alt={panels[currentIndex].description}
+              fill
+              style={{ objectFit: 'contain' }}
+              priority
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
