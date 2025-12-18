@@ -34,24 +34,33 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
       <div className={styles.viewer}>
         <button
           className={styles.navButton}
-          onClick={goToPrevious}
+          onMouseDown={goToPrevious}
           aria-label="Previous panel"
         >
           &lt;
         </button>
 
         <div className={styles.imageContainer}>
-          <Image
-            src={panels[currentIndex].src}
-            alt={panels[currentIndex].description}
-            fill
-            style={{ objectFit: 'contain' }}
-          />
+          {/* Render all images, only show current one */}
+          {panels.map((panel, index) => (
+            <Image
+              key={panel.src}
+              src={panel.src}
+              alt={panel.description}
+              fill
+              style={{
+                objectFit: 'contain',
+                opacity: index === currentIndex ? 1 : 0,
+                transition: 'opacity 0.15s ease'
+              }}
+              priority={index < 3}
+            />
+          ))}
         </div>
 
         <button
           className={styles.navButton}
-          onClick={goToNext}
+          onMouseDown={goToNext}
           aria-label="Next panel"
         >
           &gt;
