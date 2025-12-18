@@ -15,7 +15,7 @@ export default function MangaPage() {
 
         <article className={styles.postContent}>
           <h1>Manga Panels</h1>
-          <p className={styles.date}>A collection of panels I like</p>
+          <p className={styles.date}>A collection of panels I like. May contain spoilers. I'll set up a spoiler-block system later.</p>
 
           <section>
             <PanelCarousel
