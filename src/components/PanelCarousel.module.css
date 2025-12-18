@@ -59,7 +59,7 @@
   }
 
   .imageContainer {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
   }
 
   .description {
@@ -73,7 +73,7 @@
 
 @media (max-width: 480px) {
   .imageContainer {
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 4 / 5;
   }
 
   .description {
