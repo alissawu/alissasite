@@ -57,4 +57,26 @@
     padding: 0.5rem 0.75rem;
     font-size: 1rem;
   }
+
+  .imageContainer {
+    aspect-ratio: 4 / 3;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .indicator {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .imageContainer {
+    aspect-ratio: 3 / 2;
+  }
+
+  .description {
+    font-size: 0.75rem;
+  }
 }
