@@ -141,13 +141,13 @@ export default function MangaPage() {
               slug="edens-zero"
               panels={[
                 {
-                  src: "",
-                  description: `I don't watch Eden's Zero. I watched one episode and dropped it 10 min in. But my
+                  src: "ch124-elsie.jpeg",
+                  description: `I don't watch Eden's Zero. I watched one ep and dropped it a few min in. But my
                     childhood show is Fairy Tail, and I've waited almost 10 years for Jellal and Erza to get together.
-                    I'm a really huge Jerza fan. I think Fairy Tail (including the sequel) is over, and Mashima refused
+                    I'm a really huge Jerza fan. Fairy Tail and 100YQ are over, and Mashima refused
                     to create a confirmed ending… like it's going to happen, but he doesn't want to give the audience
-                    catharsis, which is kind of cruel. Anyway, along with cruelty and perversion (FT/EZ have ridiculous
-                    fanservice, which is why I don't reread them), he isn't creative, so he reuses his character designs.
+                    catharsis, which is kind of cruel. Anyway, along with cruelty and perversion (FT has ridiculous
+                    fanservice, so I don't reread it), he isn't creative, so he reuses his character designs.
                     Anyway this is Elsie and Justice from Eden's Zero. Their character context is 'two former lovers
                     turned enemies', which is pretty similar to Jellal and Erza - what they're introduced as, in the
                     Heaven's Tower Arc.`
