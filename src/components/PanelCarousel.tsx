@@ -11,10 +11,12 @@ interface Panel {
 
 interface PanelCarouselProps {
   title: string;
+  slug: string;
   panels: Panel[];
 }
 
-export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
+export default function PanelCarousel({ title, slug, panels }: PanelCarouselProps) {
+  const basePath = `/blog/manga/${slug}/`;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
 
@@ -64,7 +66,7 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
           {panels.map((panel, index) => (
             <Image
               key={panel.src}
-              src={panel.src}
+              src={basePath + panel.src}
               alt={panel.description}
               fill
               style={{
@@ -101,7 +103,7 @@ export default function PanelCarousel({ title, panels }: PanelCarouselProps) {
           </button>
           <div className={styles.lightboxContent} onClick={(e) => e.stopPropagation()}>
             <Image
-              src={panels[currentIndex].src}
+              src={basePath + panels[currentIndex].src}
               alt={panels[currentIndex].description}
               fill
               style={{ objectFit: 'contain' }}
