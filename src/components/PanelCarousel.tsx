@@ -7,6 +7,7 @@ import styles from './PanelCarousel.module.css';
 interface Panel {
   src: string;
   description: string;
+  chapter: number | string;
 }
 
 interface PanelCarouselProps {
@@ -88,6 +89,10 @@ export default function PanelCarousel({ title, slug, panels }: PanelCarouselProp
           &gt;
         </button>
       </div>
+
+      {panels[currentIndex].chapter && (
+        <div className={styles.chapter}>Chapter {panels[currentIndex].chapter}</div>
+      )}
 
       <p className={styles.description}>{panels[currentIndex].description}</p>
 
