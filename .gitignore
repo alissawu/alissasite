@@ -42,3 +42,6 @@ next-env.d.ts
 
 .claude/
 .claude/agents
+
+# folder of concepts i want to look into later.
+learnlater.txt

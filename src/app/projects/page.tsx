@@ -145,6 +145,7 @@ export default function Projects() {
             <p className={styles.projectDescription}>
               Real-time sentiment analysis platform for Reddit subreddits using NLP. Computes average and median sentiment of subreddit posts.
               Uses Reddit API (PRAW) and fine-tuned DistilBERT model hosted on Hugging Face Inference Endpoints, cached with Redis.
+              (Currently down bc I ran out of Redis free tier. Will fix later.)
             </p>
             <div className={styles.techTags}>
               <span>Python</span>

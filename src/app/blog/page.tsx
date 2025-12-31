@@ -12,9 +12,9 @@ interface BlogPost {
 const posts: BlogPost[] = [
   {
     id: 'manga',
-    title: 'Manga Panels I Like (noncomprehensive)',
+    title: 'Manga Panels I Like',
     date: 'December 17, 2025',
-    preview: 'This won\'t be comprehensive. since there are some manga I just don\'t feel like revisiting, but I wanted a log somewhere.'
+    preview: 'This won\'t be comprehensive, but I wanted a log somewhere. Spoiler protection included.'
   },
   {
     id: 'bert',

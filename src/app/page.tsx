@@ -47,8 +47,8 @@ export default function Home() {
             I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc), which is what my Math page is about.
             </p>
             <p className={styles.bio}>
-            I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s premier & most competitive software organization.
-            I&apos;m a member of Business Analytics Club, BUGS (Open Source Club), and I volunteer with Give Where You Live!
+            I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s main software organization.
+            I&apos;m a member of Business Analytics Club (Quant), BUGS (Open Source Club), and I volunteer with Give Where You Live!
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I became a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
@@ -56,7 +56,7 @@ export default function Home() {
             </p>
             <p className={styles.bio}>
             I&apos;m a National Merit Scholarship Awardee.
-            Pre-transfer I was involved with Duke Quant and DUU Art Union (Events Committee).
+            I was involved with DQF and DUU Art Union (Events Committee).
             </p>
             <p className={styles.bio}>
             I&apos;m driven by a love of exploration, learning, and creation. Software, music, art.
