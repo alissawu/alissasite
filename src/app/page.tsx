@@ -85,7 +85,7 @@ export default function Home() {
                 <Linkedin size={24} aria-hidden="true" />
               </a>
               <a
-                href="https://x.com/alissawuu"
+                href="https://x.com/alissawu"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit Alissa's X profile"
