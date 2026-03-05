@@ -38,7 +38,7 @@ export default function Home() {
             <h1>ALISSA WU</h1>
 
             <p className={styles.tagline}>
-              CS+Math at NYU | Dev Team @ Tech@NYU | Prev Software & Data @ Visa, Interos, Point72, Duke, AYR, NJIT
+              CS+Math at NYU | Prev Software & Data @ Visa, Interos, Point72, Duke, AYR, NJIT
             </p>
 
             <p className={styles.bio}>
@@ -47,8 +47,7 @@ export default function Home() {
             I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc), which is what my Math page is about.
             </p>
             <p className={styles.bio}>
-            I&apos;m on Tech@NYU&apos;s Dev Team, NYU&apos;s main software organization.
-            I&apos;m a member of Business Analytics Club (Quant), BUGS (Open Source Club), and I volunteer with Give Where You Live!
+            I&apos;m a member of Tech@NYU, Stern EEG, Business Analytics Club (Quant), BUGS (Open Source Club), and I volunteer with Give Where You Live!
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I became a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
