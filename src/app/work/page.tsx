@@ -14,7 +14,7 @@ export default function Work() {
             SWE @ Visa, Data Research @ Duke, R&D DS @ Interos, Attendee @ Point72 Academy, SDE @ AYR.ai, Research @ NJIT
           </p>
           <p>
-            Dev @ Tech@NYU, Competitor @ Stern BAC, Member @ WinC, Member @ NYU BUGS, Scholar @ DTech
+            Member @ Tech@NYU, Stern EEG, BAC, Scholar @ DTech
          </p>
         </div>
 
@@ -23,17 +23,14 @@ export default function Work() {
           <div className={styles.timelineItem}>
             <div className={styles.dot}></div>
             <div className={styles.content}>
-              <h2>Tech@NYU Dev Team</h2>
-              <p className={styles.role}>Developer • Sept 2025 - Present</p>
-              <p className={styles.tech}>Next.js, TypeScript, Cloudfare Workers, Convex API, SQLite, Bun</p>
+              <h2>Building</h2>
+              <p className={styles.role}>Developer • Jan 2026 - Present</p>
+              <p className={styles.tech}>Next, Vite, Docker, Electron, Postgres, Render, React, Tanstack</p>
               <ul>
-                <li>Building an all-in-one app for NYU students to find courses, compare professors, and organize schedules.</li>
-                <li>Developing a faster, more optimized alternative to Albert with clean UI and responsive calendar features.</li>
-                <li>Working on a fast-paced team targeting deployment before Spring 2026 course registration.</li>
+                <li>Shipping the SOTA of job application platforms.</li>
               </ul>
             </div>
           </div>
-
 
           {/* Visa */}
           <div className={styles.timelineItem}>
