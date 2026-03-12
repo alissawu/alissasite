@@ -19,7 +19,7 @@ export default function DoodlesPage() {
 
           <section>
             <PanelCarousel
-              title="Cats"
+              title="Doodles"
               slug="doodles"
               basePath="/blog/doodles/"
               showSpoilerControls={false}
