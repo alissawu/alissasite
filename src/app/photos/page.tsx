@@ -93,7 +93,7 @@ export default function PhotosPage() {
               description: "It was nice to see my SF friends again after a while. I teammed w a X mutual who also didn't know there was a separate hackathon discord to find teammates."
             },
             {
-              src: "aialignmentcat.jpg",
+              src: "alignmentcat.jpg",
               date: "feb 7, 2026",
               title: "AI Alignment",
               description: "Pic I took with Columbia's AI Alignment club mascot, max the misaligned cat, while at DevFest. Cats and ai alignment :) (the ears are a joke)"
