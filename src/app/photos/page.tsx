@@ -78,7 +78,7 @@ export default function PhotosPage() {
               src: "oaipton.jpg",
               date: "nov 8, 2025",
               title: "OpenAI Dinner at HackPrinceton",
-              description: "The food here was decently good. I had some interesting convos here!"
+              description: "The food here was decently good. I met some interesting OAIers."
             },
             {
               src: "agentichack.jpg",
