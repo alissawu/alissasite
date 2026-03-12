@@ -69,6 +69,12 @@ export default function PhotosPage() {
               description: "Went to event at same.next office and totally beat everyone at cards against humanities."
             },
             {
+              src: "dress.jpg",
+              date: "oct 11, 2025",
+              title: "Making a Dress",
+              description: "Hung out with a friend experimenting with clothing-making. Dress never got made :p"
+            },
+            {
               src: "dedaluscolumbia.jpg",
               date: "oct 24, 2025",
               title: "Dedalus Agents Hackathon",
@@ -90,7 +96,7 @@ export default function PhotosPage() {
               src: "alignmentcat.jpg",
               date: "feb 7, 2026",
               title: "AI Alignment",
-              description: "Pic I took with Columbia's AI Alignment club mascot, max the misaligned cat, while at DevFest. Cats and ai alignment :) hehe"
+              description: "Pic I took with Columbia's AI Alignment club mascot, max the misaligned cat, while at DevFest. Cats and ai alignment :) (the ears are a joke)"
             },
             {
               src: "vcsteakdinner.jpg",
