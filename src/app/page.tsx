@@ -47,7 +47,7 @@ export default function Home() {
             I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc), which is what my Math page is about.
             </p>
             <p className={styles.bio}>
-            I&apos;m a member of Tech@NYU, Stern EEG, Business Analytics Club (Quant), BUGS (Open Source Club), and I volunteer with Give Where You Live!
+            I&apos;m a member of Tech@NYU, Stern EEG, Business Analytics Club, BUGS (Open Source Club), and I volunteer with Give Where You Live!
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I became a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
