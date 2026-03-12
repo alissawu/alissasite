@@ -7,18 +7,19 @@ import styles from './PanelCarousel.module.css';
 interface Panel {
   src: string;
   description: string;
-  chapter: number | string;
+  chapter?: number | string;
 }
 
 interface PanelCarouselProps {
   title: string;
   slug: string;
+  basePath: string;
   panels: Panel[];
+  showSpoilerControls?: boolean;
 }
 
-export default function PanelCarousel({ title, slug, panels }: PanelCarouselProps) {
-  const basePath = `/blog/manga/${slug}/`;
-  const storageKey = `alissasite-manga-${slug}`;
+export default function PanelCarousel({ title, slug, basePath, panels, showSpoilerControls = true }: PanelCarouselProps) {
+  const storageKey = `alissasite-${slug}`;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -101,6 +102,38 @@ export default function PanelCarousel({ title, slug, panels }: PanelCarouselProp
     return (
       <div className={styles.carousel}>
         <h3 className={styles.title}>{title}</h3>
+        {showSpoilerControls && (
+          <div className={styles.spoilerControls}>
+            <label className={styles.spoilerLabel}>
+              <input
+                type="checkbox"
+                checked={spoilerEnabled}
+                onChange={(e) => setSpoilerEnabled(e.target.checked)}
+              />
+              Hide panels past chapter
+            </label>
+            {spoilerEnabled && (
+              <input
+                type="text"
+                inputMode="numeric"
+                className={styles.chapterInput}
+                value={maxChapterInput}
+                onChange={(e) => setMaxChapterInput(e.target.value.replace(/[^0-9]/g, ''))}
+                placeholder=""
+              />
+            )}
+          </div>
+        )}
+        <p className={styles.noSpoilers}>All panels hidden (past chapter {maxChapterInput || '?'})</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.carousel}>
+      <h3 className={styles.title}>{title}</h3>
+
+      {showSpoilerControls && (
         <div className={styles.spoilerControls}>
           <label className={styles.spoilerLabel}>
             <input
@@ -117,39 +150,11 @@ export default function PanelCarousel({ title, slug, panels }: PanelCarouselProp
               className={styles.chapterInput}
               value={maxChapterInput}
               onChange={(e) => setMaxChapterInput(e.target.value.replace(/[^0-9]/g, ''))}
-              placeholder=""
+              placeholder="all"
             />
           )}
         </div>
-        <p className={styles.noSpoilers}>All panels hidden (past chapter {maxChapterInput || '?'})</p>
-      </div>
-    );
-  }
-
-  return (
-    <div className={styles.carousel}>
-      <h3 className={styles.title}>{title}</h3>
-
-      <div className={styles.spoilerControls}>
-        <label className={styles.spoilerLabel}>
-          <input
-            type="checkbox"
-            checked={spoilerEnabled}
-            onChange={(e) => setSpoilerEnabled(e.target.checked)}
-          />
-          Hide panels past chapter
-        </label>
-        {spoilerEnabled && (
-          <input
-            type="text"
-            inputMode="numeric"
-            className={styles.chapterInput}
-            value={maxChapterInput}
-            onChange={(e) => setMaxChapterInput(e.target.value.replace(/[^0-9]/g, ''))}
-            placeholder="all"
-          />
-        )}
-      </div>
+      )}
 
       <div className={styles.viewer}>
         <button

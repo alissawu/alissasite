@@ -21,6 +21,7 @@ export default function MangaPage() {
             <PanelCarousel
               title="Chainsaw Man"
               slug="chainsaw-man"
+              basePath="/blog/manga/chainsaw-man/"
               panels={[
                 {
                   src: "ch1-denji.png",
@@ -104,6 +105,7 @@ export default function MangaPage() {
             <PanelCarousel
               title="Horimiya"
               slug="horimiya"
+              basePath="/blog/manga/horimiya/"
               panels={[
                 {
                   src: "ch3-toru.jpeg",
@@ -152,6 +154,7 @@ export default function MangaPage() {
             <PanelCarousel
               title="Eden's Zero"
               slug="edens-zero"
+              basePath="/blog/manga/edens-zero/"
               panels={[
                 {
                   src: "ch124-elsie.jpeg",

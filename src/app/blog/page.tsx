@@ -11,6 +11,12 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    id: 'doodles',
+    title: 'Doodles',
+    date: 'March 11, 2026',
+    preview: 'A collection of notes app doodles (obviously not comprehensive, some are Secret).'
+  },
+  {
     id: 'manga',
     title: 'Manga Panels I Like',
     date: 'December 17, 2025',
