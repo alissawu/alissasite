@@ -15,7 +15,7 @@ export default function DoodlesPage() {
 
         <article className={styles.postContent}>
           <h1>Doodles</h1>
-          <p className={styles.date}>Cat doodles. Just cute lil guys.</p>
+          <p className={styles.date}>'A collection of notes app doodles (obviously not comprehensive, some are Secret).</p>
 
           <section>
             <PanelCarousel
