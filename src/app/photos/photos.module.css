@@ -1,0 +1,28 @@
+.photosPage {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.photosPage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .photosPage {
+    padding: 3rem 1.5rem;
+  }
+
+  .photosPage h1 {
+    font-size: 2rem;
+  }
+}

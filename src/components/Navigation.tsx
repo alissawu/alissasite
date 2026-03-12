@@ -45,6 +45,11 @@ export default function Navigation() {
             Blog
           </Link>
         </li>
+        <li>
+          <Link href="/photos" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/photos')}>
+            Photos
+          </Link>
+        </li>
       </ul>
     </nav>
   );
