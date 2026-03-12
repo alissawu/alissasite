@@ -33,20 +33,12 @@ export default function DoodlesPage() {
                   description: "lol"
                 },
                 {
-                  src: "appupdatesyay.jpeg",
-                  description: "happy cat"
-                },
-                {
                   src: "oohcat.jpeg",
                   description: "interested / excited cat"
                 },
                 {
                   src: "bubblememe.jpeg",
                   description: "this is basically the entirety of techtwitter"
-                },
-                {
-                  src: "bunnythatlookslikedog.jpeg",
-                  description: "i tried to draw a bunny but it looks like a dog"
                 },
                 {
                   src: "brithaircuts.jpeg",
