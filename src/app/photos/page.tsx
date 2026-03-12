@@ -18,7 +18,7 @@ export default function PhotosPage() {
               src: "bojack.jpg",
               date: "may 18, 2025",
               title: "Watching Bojack on the plane to SF",
-              description: "My first time going to SF. I really liked this quote."
+              description: "My first time going to SF (aside from one time as a child). I really liked this quote."
             },
             {
               src: "sfopic.jpeg",
