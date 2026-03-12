@@ -60,7 +60,7 @@ export default function PhotosPage() {
               src: "ycsummerconf.jpg",
               date: "july 26, 2026",
               title: "YC Summer Conference",
-              description: "I use this pic for all professional purposes atm. First actually good headshot. Lol"
+              description: "I use this pic for all professional purposes atm. First actually good headshot. It's also the pic on the Home page lol."
             },
             {
               src: "matchaevent.jpg",
