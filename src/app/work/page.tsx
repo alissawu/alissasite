@@ -24,10 +24,10 @@ export default function Work() {
             <div className={styles.dot}></div>
             <div className={styles.content}>
               <h2>Building</h2>
-              <p className={styles.role}>Developer • Jan 2026 - Present</p>
+              <p className={styles.role}>Developer • Dec 2025 - Present</p>
               <p className={styles.tech}>Next, Vite, Docker, Electron, Postgres, Render, React, Tanstack</p>
               <ul>
-                <li>Shipping the SOTA of job application platforms.</li>
+                <li>Does sisyphus like his boulder.</li>
               </ul>
             </div>
           </div>
