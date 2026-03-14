@@ -1,52 +1,39 @@
 // top navigation bar
-'use client';
-
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import styles from './nav.module.css';
 
 export default function Navigation() {
-  const router = useRouter();
-
-  const handleMouseDown = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    // Trigger on left click (button 0)
-    if (e.button === 0) {
-      e.preventDefault();
-      router.push(href);
-    }
-  };
-
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>AW</div>
       <ul className={styles.navList}>
         <li>
-          <Link href="/" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/')}>
+          <Link href="/" prefetch={true}>
             Home
           </Link>
         </li>
         <li>
-          <Link href="/projects" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/projects')}>
+          <Link href="/projects" prefetch={true}>
             Projects
           </Link>
         </li>
         <li>
-          <Link href="/work" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/work')}>
+          <Link href="/work" prefetch={true}>
             Work
           </Link>
         </li>
         <li>
-          <Link href="/math" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/math')}>
+          <Link href="/math" prefetch={true}>
             Math
           </Link>
         </li>
         <li>
-          <Link href="/blog" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/blog')}>
+          <Link href="/blog" prefetch={true}>
             Blog
           </Link>
         </li>
         <li>
-          <Link href="/photos" prefetch={true} onMouseDown={(e) => handleMouseDown(e, '/photos')}>
+          <Link href="/photos" prefetch={true}>
             Photos
           </Link>
         </li>

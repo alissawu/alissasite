@@ -24,19 +24,19 @@ export default function PhotosPage() {
               src: "sfopic.jpeg",
               date: "may 18, 2025",
               title: "Driving from SFO",
-              description: "I took this pic from the window of my Uber from SFO."
+              description: "I took this pic from the window of my Uber from SFO. I was headed to Mission Bay, where I'd be living for the next 2 months."
             },
             {
               src: "goldengate.jpeg",
               date: "may 24, 2025",
               title: "Being a Tourist",
-              description: "Tourist transplant moment obviously I visited The bridge. went with a friend from nyu, the only friend I knew in SF at the time."
+              description: "Obviously I visited The bridge. Went with a friend from NYU, the only friend I knew in SF at the time. He grew up here, and had a car, which was nice."
             },
             {
               src: "stanford.jpg",
               date: "june 1, 2025",
               title: "First time at Stanford",
-              description: "Visited a friend at Stanford and found a new favorite dessert spot. I posted this on my story which somehow got to his sister who thought it was a soft launch (it was not)."
+              description: "Visited a friend at Stanford and found a new favorite dessert spot. I posted this on my story which somehow got to his sister who thought it was a soft launch (it was not). No matter where we are, Asian Americans are too connected..."
             },
             {
               src: "internhike.jpeg",
@@ -54,7 +54,7 @@ export default function PhotosPage() {
               src: "barcoding.jpeg",
               date: "june 19, 2025",
               title: "Performatively Coding at the Bar",
-              description: "Coding at Shoji. Unironically though everyone was working so it's not really performative if it's the canonical activity. Also I made my X.com account on this day."
+              description: "Coding at Shoji with a friend. Unironically though everyone was working so it's not really performative if it's the canonical activity. I made my X.com account here."
             },
             {
               src: "ycsummerconf.jpg",
@@ -72,19 +72,19 @@ export default function PhotosPage() {
               src: "dress.jpg",
               date: "oct 11, 2025",
               title: "Making a Dress",
-              description: "Hung out with a friend experimenting with clothing-making. Dress never got made :p"
+              description: "Hung out with a friend experimenting with clothing-making. Dress never got made -_-"
             },
             {
               src: "dedaluscolumbia.jpg",
               date: "oct 24, 2025",
               title: "Dedalus Agents Hackathon",
-              description: "I encountered an absolutely ridiculous localStorage issue here."
+              description: "I encountered an absolutely ridiculous localStorage issue here. Also had to resolve many merge conflicts (i think we didn't have the time to Claude it?). We still won though, yay."
             },
             {
               src: "oaipton.jpg",
               date: "nov 8, 2025",
               title: "OpenAI Dinner at HackPrinceton",
-              description: "The food here was decently good. I met some interesting OAIers."
+              description: "Small invite-only thing. Not sure what the selection criteria was, but I met some interesting OAIers & Princeton + other uni kids."
             },
             {
               src: "agentichack.jpg",
@@ -102,7 +102,7 @@ export default function PhotosPage() {
               src: "vcsteakdinner.jpg",
               date: "feb 9, 2026",
               title: "VC Steak Dinner",
-              description: "I met a lot of cool people Doing Things"
+              description: "I met a lot of cool people Doing Cool Things."
             },
             {
               src: "llama.jpg",
@@ -114,7 +114,7 @@ export default function PhotosPage() {
               src: "claudius.jpg",
               date: "feb 17, 2026",
               title: "Tungsten Cubes",
-              description: "Visited Anthropic office and saw tungsten cube. Lol"
+              description: "Visited Anthropic office and saw tungsten cube. Also got dinner (duck + stuff like that, it was good) Lol"
             },
             
           ]}
