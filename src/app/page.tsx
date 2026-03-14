@@ -44,7 +44,8 @@ export default function Home() {
             <p className={styles.bio}>
             I&apos;m a junior studying CS and Math at NYU.
             I&apos;m mainly a software engineer, though I have done some data science / MLE work.
-            I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc), which is what my Math page is about.
+            I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc). I keep meaning to update my Math page!
+            That aside, I also like nightcore, ai alignment, cats, light mode, and other somewhat idiosyncratic things.
             </p>
             <p className={styles.bio}>
             I&apos;m a member of Tech@NYU, Stern EEG, Business Analytics Club, BUGS (Open Source Club), and I volunteer with Give Where You Live!
