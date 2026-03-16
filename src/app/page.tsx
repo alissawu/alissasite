@@ -63,6 +63,11 @@ export default function Home() {
             People become real by creating real things, externalizing intention into the emptiness.
             It&apos;s what makes life meaningful to me.
             </p>
+            <p className={styles.bio}>
+            Feel free to reach out (in good faith)! I'm most responsive to strangers on X.com, I think. I check Linkedin somewhat infrequently.
+            (If you&apos;re a DTech member, don&apos;t be a stranger! I spent 2 years of my life in DTech. I love the program. There are a plural amount of people I've already coffee chatted with.) 
+            </p>
+
 
             {/* social links */}
             <div className={styles.socialLinks}>
