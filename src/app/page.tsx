@@ -43,8 +43,8 @@ export default function Home() {
 
             <p className={styles.bio}>
             I&apos;m a junior studying CS and Math at NYU.
-            I&apos;m mainly a software engineer, though I have done some data science / MLE work.
-            I enjoy interesting math problems (think: logic puzzles, interesting proofs, etc). I keep meaning to update my Math page!
+            I&apos;m mainly a software engineer, though I have done / am currently doing some data science / MLE work.
+            I enjoy interesting math problems. I keep meaning to update my Math page!
             That aside, I also like nightcore, ai alignment, cats, light mode, and other somewhat idiosyncratic things.
             </p>
             <p className={styles.bio}>
@@ -62,10 +62,6 @@ export default function Home() {
             I&apos;m driven by a love of exploration, learning, and creation. Software, music, art.
             People become real by creating real things, externalizing intention into the emptiness.
             It&apos;s what makes life meaningful to me.
-            </p>
-            <p className={styles.bio}>
-            Feel free to reach out (in good faith)! I'm most responsive to strangers on X.com, I think. I check Linkedin somewhat infrequently.
-            (If you&apos;re a DTech member, don&apos;t be a stranger! I spent 2 years of my life in DTech. I love the program. There are a plural amount of people I've already coffee chatted with.) 
             </p>
 
 
@@ -97,13 +93,6 @@ export default function Home() {
                 data-platform="x"
               >
                 <XIcon />
-              </a>
-              <a
-                href="mailto:aw5571@nyu.edu"
-                aria-label="Email Alissa"
-                data-platform="email"
-              >
-                <Mail size={24} aria-hidden="true" />
               </a>
             </div>
           </div>
