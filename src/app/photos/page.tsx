@@ -63,6 +63,12 @@ export default function PhotosPage() {
               description: "I use this pic for all professional purposes atm. First actually good headshot. It's also the pic on the Home page lol."
             },
             {
+              src: "napacafekelly.jpg",
+              date: "aug 1, 2025",
+              title: "Napa Cafe",
+              description: "The mango sticky rice here is really good! This is my Luma pfp."
+            },
+            {
               src: "matchaevent.jpg",
               date: "aug 2, 2025",
               title: "Cards Against Humanities",
