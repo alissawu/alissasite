@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback, useSyncExternalStore } from 'react';
 import Image from 'next/image';
 import styles from './PanelCarousel.module.css';
 
@@ -18,42 +18,88 @@ interface PanelCarouselProps {
   showSpoilerControls?: boolean;
 }
 
+interface SpoilerSettings {
+  enabled: boolean;
+  max: number | null;
+}
+
+const DEFAULT_SETTINGS: SpoilerSettings = { enabled: false, max: null };
+
+// storage events only fire in other tabs, so same-tab writes dispatch this
+const SETTINGS_CHANGE_EVENT = 'alissasite-spoiler-settings-change';
+
+function parseSettings(raw: string | null): SpoilerSettings {
+  if (!raw) return DEFAULT_SETTINGS;
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (typeof parsed !== 'object' || parsed === null) return DEFAULT_SETTINGS;
+    const record = parsed as Record<string, unknown>;
+    return {
+      enabled: typeof record.enabled === 'boolean' ? record.enabled : false,
+      max: typeof record.max === 'number' ? record.max : null,
+    };
+  } catch {
+    return DEFAULT_SETTINGS;
+  }
+}
+
+// localStorage-backed spoiler settings; useSyncExternalStore keeps the server
+// render and client hydration consistent (server sees the defaults)
+function useSpoilerSettings(storageKey: string): [SpoilerSettings, (next: SpoilerSettings) => void] {
+  const subscribe = useCallback((onChange: () => void) => {
+    window.addEventListener('storage', onChange);
+    window.addEventListener(SETTINGS_CHANGE_EVENT, onChange);
+    return () => {
+      window.removeEventListener('storage', onChange);
+      window.removeEventListener(SETTINGS_CHANGE_EVENT, onChange);
+    };
+  }, []);
+
+  const getSnapshot = useCallback(() => {
+    try {
+      return localStorage.getItem(storageKey);
+    } catch {
+      return null;
+    }
+  }, [storageKey]);
+
+  const raw = useSyncExternalStore(subscribe, getSnapshot, () => null);
+  const settings = useMemo(() => parseSettings(raw), [raw]);
+
+  const save = useCallback(
+    (next: SpoilerSettings) => {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(next));
+      } catch {
+        // Ignore storage errors
+      }
+      window.dispatchEvent(new Event(SETTINGS_CHANGE_EVENT));
+    },
+    [storageKey]
+  );
+
+  return [settings, save];
+}
+
 export default function PanelCarousel({ title, slug, basePath, panels, showSpoilerControls = true }: PanelCarouselProps) {
   const storageKey = `alissasite-${slug}`;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [spoilerEnabled, setSpoilerEnabled] = useState(false);
-  const [maxChapterInput, setMaxChapterInput] = useState('');
-  const [loaded, setLoaded] = useState(false);
+  const [settings, saveSettings] = useSpoilerSettings(storageKey);
 
-  // Derive numeric value for filtering (empty = show all)
-  const maxChapter = maxChapterInput === '' ? Infinity : (parseInt(maxChapterInput) || 0);
+  const spoilerEnabled = settings.enabled;
+  const maxChapterInput = settings.max?.toString() ?? '';
+  const maxChapter = settings.max ?? Infinity;
 
-  // Load spoiler settings from localStorage
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem(storageKey);
-      if (saved) {
-        const { enabled, max } = JSON.parse(saved);
-        setSpoilerEnabled(enabled ?? false);
-        setMaxChapterInput(max?.toString() ?? '');
-      }
-    } catch {
-      // Ignore parse errors
-    }
-    setLoaded(true);
-  }, [storageKey]);
+  const handleSpoilerToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
+    saveSettings({ ...settings, enabled: e.target.checked });
+  };
 
-  // Save spoiler settings to localStorage
-  useEffect(() => {
-    if (!loaded) return;
-    try {
-      localStorage.setItem(storageKey, JSON.stringify({ enabled: spoilerEnabled, max: maxChapterInput === '' ? null : parseInt(maxChapterInput) }));
-    } catch {
-      // Ignore storage errors
-    }
-  }, [spoilerEnabled, maxChapterInput, storageKey, loaded]);
+  const handleMaxChapterChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const digits = e.target.value.replace(/[^0-9]/g, '');
+    saveSettings({ ...settings, max: digits === '' ? null : parseInt(digits) });
+  };
 
   // Filter panels based on spoiler settings
   const filteredPanels = useMemo(() => {
@@ -64,19 +110,15 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
     });
   }, [panels, spoilerEnabled, maxChapter]);
 
-  // Reset index if it's out of bounds after filtering
-  useEffect(() => {
-    if (currentIndex >= filteredPanels.length) {
-      setCurrentIndex(Math.max(0, filteredPanels.length - 1));
-    }
-  }, [filteredPanels.length, currentIndex]);
+  // Clamp in case filtering shrank the list below the stored index
+  const safeIndex = Math.max(0, Math.min(currentIndex, filteredPanels.length - 1));
 
   const goToPrevious = () => {
-    setCurrentIndex((prev) => (prev === 0 ? filteredPanels.length - 1 : prev - 1));
+    setCurrentIndex(safeIndex === 0 ? filteredPanels.length - 1 : safeIndex - 1);
   };
 
   const goToNext = () => {
-    setCurrentIndex((prev) => (prev === filteredPanels.length - 1 ? 0 : prev + 1));
+    setCurrentIndex(safeIndex === filteredPanels.length - 1 ? 0 : safeIndex + 1);
   };
 
   const openLightbox = () => setLightboxOpen(true);
@@ -108,7 +150,7 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
               <input
                 type="checkbox"
                 checked={spoilerEnabled}
-                onChange={(e) => setSpoilerEnabled(e.target.checked)}
+                onChange={handleSpoilerToggle}
               />
               Hide panels past chapter
             </label>
@@ -118,7 +160,7 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
                 inputMode="numeric"
                 className={styles.chapterInput}
                 value={maxChapterInput}
-                onChange={(e) => setMaxChapterInput(e.target.value.replace(/[^0-9]/g, ''))}
+                onChange={handleMaxChapterChange}
                 placeholder=""
               />
             )}
@@ -139,7 +181,7 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
             <input
               type="checkbox"
               checked={spoilerEnabled}
-              onChange={(e) => setSpoilerEnabled(e.target.checked)}
+              onChange={handleSpoilerToggle}
             />
             Hide panels past chapter
           </label>
@@ -149,7 +191,7 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
               inputMode="numeric"
               className={styles.chapterInput}
               value={maxChapterInput}
-              onChange={(e) => setMaxChapterInput(e.target.value.replace(/[^0-9]/g, ''))}
+              onChange={handleMaxChapterChange}
               placeholder="all"
             />
           )}
@@ -175,7 +217,7 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
               fill
               style={{
                 objectFit: 'contain',
-                opacity: index === currentIndex ? 1 : 0,
+                opacity: index === safeIndex ? 1 : 0,
                 transition: 'opacity 0.15s ease',
                 cursor: 'pointer'
               }}
@@ -193,14 +235,14 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
         </button>
       </div>
 
-      {filteredPanels[currentIndex].chapter && (
-        <div className={styles.chapter}>Chapter {filteredPanels[currentIndex].chapter}</div>
+      {filteredPanels[safeIndex].chapter && (
+        <div className={styles.chapter}>Chapter {filteredPanels[safeIndex].chapter}</div>
       )}
 
-      <p className={styles.description}>{filteredPanels[currentIndex].description}</p>
+      <p className={styles.description}>{filteredPanels[safeIndex].description}</p>
 
       <div className={styles.indicator}>
-        {currentIndex + 1} / {filteredPanels.length}
+        {safeIndex + 1} / {filteredPanels.length}
       </div>
 
       {/* Lightbox Modal */}
@@ -211,8 +253,8 @@ export default function PanelCarousel({ title, slug, basePath, panels, showSpoil
           </button>
           <div className={styles.lightboxContent} onClick={(e) => e.stopPropagation()}>
             <Image
-              src={basePath + filteredPanels[currentIndex].src}
-              alt={filteredPanels[currentIndex].description}
+              src={basePath + filteredPanels[safeIndex].src}
+              alt={filteredPanels[safeIndex].description}
               fill
               style={{ objectFit: 'contain' }}
               priority

@@ -1,7 +1,7 @@
 // landing page
 import Image from 'next/image';
 import Navigation from '@/components/Navigation';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import styles from './home.module.css';
 
 // X (Twitter) icon - not available in lucide-react, using custom SVG
@@ -62,6 +62,9 @@ export default function Home() {
             I&apos;m driven by a love of exploration, learning, and creation. Software, music, art.
             People become real by creating real things, externalizing intention into the emptiness.
             It&apos;s what makes life meaningful to me.
+            </p>
+            <p className={styles.bio}>
+            (PS: If you explore around, this site may feel incomplete, random, or kind of strange. I haven&apos;t finalized it yet, and also haven&apos;t really linked it anywhere. It&apos;s a work in progress...)
             </p>
 
 

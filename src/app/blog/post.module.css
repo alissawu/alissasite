@@ -43,10 +43,39 @@
   margin-bottom: 1rem;
 }
 
+.postContent h3 {
+  font-size: 1.2rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .postContent p {
   margin-bottom: 1rem;
 }
 
+.postContent pre {
+  overflow-x: auto;
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  -webkit-overflow-scrolling: touch;
+}
+
+.postContent code {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+
+.postContent pre code {
+  background: none;
+  padding: 0;
+}
 .postContent a {
   color: #666;
   text-decoration: underline;

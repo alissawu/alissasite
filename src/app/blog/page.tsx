@@ -11,16 +11,16 @@ interface BlogPost {
 
 const posts: BlogPost[] = [
   {
+    id: 'qol',
+    title: 'High +QOL/Price Ratio Items',
+    date: 'May 11, 2026',
+    preview: 'Little things I have bought that have outsized positive impacts on my QOL'
+  },
+  {
     id: 'doodles',
     title: 'Doodles',
     date: 'March 11, 2026',
     preview: 'A collection of notes app doodles (obviously not comprehensive, some are Secret).'
-  },
-  {
-    id: 'manga',
-    title: 'Manga Panels I Like',
-    date: 'December 17, 2025',
-    preview: 'This won\'t be comprehensive, but I wanted a log somewhere. Spoiler protection included.'
   },
   {
     id: 'bert',
