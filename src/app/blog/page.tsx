@@ -29,12 +29,6 @@ const posts: BlogPost[] = [
     preview: 'I\'m mostly just writing this to log what I learned in NLP. ALso I\'m not done.'
   },
   {
-    id: 'zombieland-2009',
-    title: 'Zombieland (2009)',
-    date: 'October 15, 2025',
-    preview: 'I\'m into Jesse Eisenberg lately, so here\'s an honest review of Zombieland (2009).'
-  },
-  {
     id: 'song-recs',
     title: 'Songs to Recommend to a DJ',
     date: 'October 7, 2025',
