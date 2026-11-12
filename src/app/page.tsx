@@ -43,7 +43,7 @@ export default function Home() {
 
             <p className={styles.bio}>
             I&apos;m a senior studying CS and Math at NYU.
-            I&apos;m mainly a software engineer, though I have done work in other domains.
+            I&apos;ve mainly worked on software (agent systems, evals, automations) and data (pipelines, RAG, scraping, analytics), though I do pursue other interests.
             I&apos;m currently working through Neel Nanda&apos;s mechinterp roadmap, and will upload some notes once I&apos;m at a good stopping point.
             I enjoy interesting problems. I also like nightcore, ai alignment, cats, light mode, and other somewhat idiosyncratic things.
             </p>
@@ -64,7 +64,7 @@ export default function Home() {
             It&apos;s what makes life meaningful to me.
             </p>
             <p className={styles.bio}>
-            (PS: If you explore around, this site may feel incomplete, random, or kind of strange. I haven&apos;t finalized it yet, and also haven&apos;t really linked it anywhere. It&apos;s a work in progress...)
+            (PS: If you explore around, this site may feel incomplete, random, or kind of strange. I haven&apos;t finalized it yet, and also haven&apos;t really linked it anywhere. It&apos;s a work in progress... Notably, the projects page is kinda bare. Welp)
             </p>
 
 
