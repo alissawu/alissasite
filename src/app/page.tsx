@@ -42,13 +42,13 @@ export default function Home() {
             </p>
 
             <p className={styles.bio}>
-            I&apos;m a junior studying CS and Math at NYU.
-            I&apos;m mainly a software engineer, though I have done / am currently doing some data science / MLE work.
-            I enjoy interesting math problems. I keep meaning to update my Math page!
-            That aside, I also like nightcore, ai alignment, cats, light mode, and other somewhat idiosyncratic things.
+            I&apos;m a senior studying CS and Math at NYU.
+            I&apos;m mainly a software engineer, though I have done work in other domains.
+            I&apos;m currently working through Neel Nanda&apos;s mechinterp roadmap, and will upload some notes once I&apos;m at a good stopping point.
+            I enjoy interesting problems. I also like nightcore, ai alignment, cats, light mode, and other somewhat idiosyncratic things.
             </p>
             <p className={styles.bio}>
-            I&apos;m a member of Tech@NYU, Stern EEG, Business Analytics Club, BUGS (Open Source Club), and I volunteer with Give Where You Live!
+            I&apos;m the Startup Week Engineering Lead for Tech@NYU, and I&apos;m a member of Stern EEG and Business Analytics Club.
             </p>
             <p className={styles.bio}>
             I&apos;ve attended Point72 Investment Academy. I became a DTech (Women in Tech) Scholar this summer, and attended many events in SF, like YC Summer Conference 2025.
